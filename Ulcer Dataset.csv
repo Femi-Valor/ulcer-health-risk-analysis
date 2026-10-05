@@ -1,0 +1,501 @@
+patient_id,age,sex,bmi,h_pylori_status,ulcer_history,med_type,med_duration(Monthly),smoking_status,alcohol_intake_level,pain_severity,pain_pattern,gi_symptoms,bleeding_symptoms,ulcer_size_mm,ulcer_depth,hemoglobin_g_dl,stool_ob,Ulcer_stage,treatment_category,hospitalization_required,ulcer_outcome,Date of Diagnosis
+P0001,26,M,23.4,positive,previous,none,0,former,none,2,postprandial,dyspepsia,none,3,erosion,14.8,negative,Stage 1,medical,no,healed,19-Jan-16
+P0002,49,F,27.8,negative,none,NSAIDs,6,never,moderate,5,fasting,dyspepsia,none,10,erosion,12.3,positive,Stage 1,endoscopic,no,persistent,30-Sep-24
+P0003,63,M,30.2,positive,recurrent,aspirin,8,current,heavy,7,nocturnal,nausea_vomiting,melena,18,erosion,9.5,positive,Stage 1,medical,yes,healed,9-Jun-19
+P0004,71,F,28.5,positive,previous,NSAIDs,12,former,none,9,mixed,alarm_symptoms,hematemesis,32,erosion,8,positive,Stage 1,surgical,yes,healed,25-Jul-16
+P0005,34,M,24.1,negative,none,none,0,never,moderate,3,postprandial,dyspepsia,none,4,erosion,13.9,negative,Stage 1,medical,no,persistent,17-Oct-16
+P0006,55,F,29,positive,previous,NSAIDs,7,current,moderate,6,fasting,dyspepsia,none,13,erosion,12.1,positive,Stage 1,medical,no,healed,11-Sep-25
+P0007,44,M,25.9,negative,recurrent,none,0,former,none,2,postprandial,dyspepsia,none,3,erosion,14.3,negative,Stage 1,endoscopic,no,healed,19-Sep-21
+P0008,68,F,31.5,positive,none,aspirin,10,never,heavy,8,nocturnal,nausea_vomiting,hematemesis,22,erosion,10,positive,Stage 1,medical,yes,persistent,12-May-21
+P0009,30,M,23.8,positive,previous,none,0,current,none,1,fasting,dyspepsia,none,2,erosion,15,negative,Stage 1,surgical,no,healed,30-Sep-19
+P0010,52,F,28.9,negative,none,NSAIDs,6,former,moderate,5,postprandial,dyspepsia,none,14,erosion,12.7,positive,Stage 1,medical,no,healed,18-Jan-16
+P0011,37,M,25,positive,recurrent,none,0,never,none,3,postprandial,dyspepsia,none,3,erosion,14.5,negative,Stage 1,endoscopic,no,persistent,2-Apr-19
+P0012,60,F,30.8,positive,previous,aspirin,9,current,heavy,7,nocturnal,nausea_vomiting,melena,21,erosion,9,positive,Stage 1,medical,yes,healed,10-May-17
+P0013,28,M,22.9,negative,none,none,0,former,none,2,fasting,dyspepsia,none,4,erosion,13.5,negative,Stage 1,medical,no,healed,30-Dec-23
+P0014,47,F,27.5,positive,previous,NSAIDs,5,never,moderate,5,postprandial,dyspepsia,none,11,erosion,12.5,positive,Stage 1,surgical,no,persistent,4-Jun-18
+P0015,65,M,29.8,positive,recurrent,aspirin,10,current,heavy,8,nocturnal,nausea_vomiting,hematemesis,23,erosion,9.2,positive,Stage 1,medical,yes,healed,4-Nov-25
+P0016,72,F,28.3,negative,previous,NSAIDs,12,never,none,9,mixed,alarm_symptoms,hematemesis,35,erosion,7.8,positive,Stage 1,medical,yes,healed,12-Jul-24
+P0017,31,M,23.6,positive,none,none,0,former,moderate,3,postprandial,dyspepsia,none,4,erosion,14,negative,Stage 1,endoscopic,no,persistent,12-Dec-23
+P0018,56,F,29.2,negative,recurrent,NSAIDs,7,current,moderate,6,fasting,dyspepsia,none,12,erosion,12.3,positive,Stage 1,medical,no,healed,12-Dec-18
+P0019,42,M,26.4,positive,previous,none,0,never,none,2,postprandial,dyspepsia,none,3,erosion,14.1,negative,Stage 1,medical,no,healed,14-Apr-23
+P0020,69,F,31.3,positive,none,aspirin,10,former,heavy,8,nocturnal,nausea_vomiting,melena,22,erosion,10.5,positive,Stage 1,surgical,yes,persistent,15-Feb-23
+P0021,35,M,24.8,negative,previous,none,0,current,none,3,fasting,dyspepsia,none,4,erosion,14.6,negative,Stage 1,medical,no,healed,25-Feb-22
+P0022,50,F,28,positive,recurrent,NSAIDs,6,never,moderate,5,postprandial,dyspepsia,none,13,erosion,12.9,positive,Stage 1,medical,no,healed,25-Aug-24
+P0023,61,M,30.5,positive,none,aspirin,9,former,heavy,7,nocturnal,nausea_vomiting,hematemesis,20,erosion,9.4,positive,Stage 1,endoscopic,yes,persistent,16-Feb-16
+P0024,73,F,29.1,negative,previous,NSAIDs,12,current,none,9,mixed,alarm_symptoms,hematemesis,34,erosion,7.9,positive,Stage 1,medical,yes,healed,25-Jan-21
+P0025,29,M,23,positive,none,none,0,never,none,2,postprandial,dyspepsia,none,3,erosion,14.2,negative,Stage 1,surgical,no,healed,16-Mar-19
+P0026,46,F,27.3,negative,recurrent,NSAIDs,5,former,moderate,5,fasting,dyspepsia,none,12,erosion,12.6,positive,Stage 1,medical,no,healed,15-Aug-19
+P0027,64,M,29.9,positive,previous,aspirin,10,current,heavy,8,nocturnal,nausea_vomiting,melena,23,erosion,9.1,positive,Stage 1,medical,yes,persistent,27-Mar-25
+P0028,70,F,28.7,positive,previous,NSAIDs,12,never,none,9,mixed,alarm_symptoms,hematemesis,33,erosion,8,positive,Stage 1,endoscopic,yes,healed,7-Aug-22
+P0029,32,M,24.2,positive,none,none,0,former,moderate,3,postprandial,dyspepsia,none,4,erosion,13.7,negative,Stage 1,medical,no,persistent,26-May-24
+P0030,53,F,28.8,negative,recurrent,NSAIDs,6,current,moderate,6,fasting,dyspepsia,none,13,erosion,12.8,positive,Stage 1,medical,no,healed,1-Jul-21
+P0031,36,M,24.5,positive,none,none,0,never,none,3,postprandial,dyspepsia,none,3,erosion,14.4,negative,Stage 1,surgical,no,healed,13-Jul-17
+P0032,51,F,28.2,negative,previous,NSAIDs,6,former,moderate,5,fasting,dyspepsia,none,13,erosion,12.4,positive,Stage 1,medical,no,healed,26-May-23
+P0033,62,M,30.1,positive,recurrent,aspirin,9,current,heavy,7,nocturnal,nausea_vomiting,melena,20,erosion,9.3,positive,Stage 1,endoscopic,yes,persistent,19-Dec-25
+P0034,74,F,28.6,positive,previous,NSAIDs,12,never,none,9,mixed,alarm_symptoms,hematemesis,36,erosion,7.7,positive,Stage 1,medical,yes,healed,9-Jan-19
+P0035,29,M,23.1,negative,none,none,0,former,moderate,2,postprandial,dyspepsia,none,3,erosion,14,negative,Stage 1,medical,no,healed,7-Jun-22
+P0036,48,F,27.7,positive,previous,NSAIDs,5,current,moderate,5,fasting,dyspepsia,none,11,erosion,12.7,positive,Stage 1,surgical,no,persistent,9-Oct-15
+P0037,65,M,29.7,positive,none,aspirin,10,never,heavy,8,nocturnal,nausea_vomiting,melena,23,erosion,9,positive,Stage 1,medical,yes,healed,22-May-22
+P0038,70,F,28.9,negative,recurrent,NSAIDs,12,former,none,9,mixed,alarm_symptoms,hematemesis,34,erosion,7.8,positive,Stage 1,medical,yes,healed,15-Mar-25
+P0039,33,M,24.3,positive,previous,none,0,current,none,3,postprandial,dyspepsia,none,4,erosion,13.8,negative,Stage 1,endoscopic,no,healed,1-Jun-23
+P0040,54,F,28.5,negative,none,NSAIDs,6,never,moderate,6,fasting,dyspepsia,none,14,erosion,12.6,positive,Stage 1,medical,no,persistent,21-May-17
+P0041,38,M,25.2,positive,previous,none,0,former,none,3,postprandial,dyspepsia,none,3,erosion,14.2,negative,Stage 1,medical,no,healed,15-Feb-18
+P0042,61,F,30,positive,recurrent,aspirin,9,current,heavy,7,nocturnal,nausea_vomiting,melena,21,erosion,9.1,positive,Stage 1,surgical,yes,persistent,30-Jun-19
+P0043,30,M,23.6,negative,none,none,0,never,moderate,2,fasting,dyspepsia,none,4,erosion,13.9,negative,Stage 1,medical,no,healed,15-May-17
+P0044,46,F,27.4,positive,previous,NSAIDs,5,former,moderate,5,postprandial,dyspepsia,none,12,erosion,12.8,positive,Stage 1,endoscopic,no,healed,25-Oct-19
+P0045,66,M,29.6,positive,recurrent,aspirin,10,current,heavy,8,nocturnal,nausea_vomiting,hematemesis,24,erosion,9.2,positive,Stage 1,medical,yes,persistent,9-Aug-21
+P0046,71,F,28.8,negative,previous,NSAIDs,12,never,none,9,mixed,alarm_symptoms,hematemesis,35,erosion,7.9,positive,Stage 1,medical,yes,healed,17-Jan-25
+P0047,32,M,24,positive,none,none,0,former,moderate,3,postprandial,dyspepsia,none,4,erosion,13.6,negative,Stage 1,surgical,no,healed,15-Aug-20
+P0048,55,F,29.1,negative,previous,NSAIDs,7,current,moderate,6,fasting,dyspepsia,none,13,erosion,12.5,positive,Stage 1,medical,no,persistent,20-Jan-20
+P0049,43,M,26.5,positive,none,none,0,never,none,3,postprandial,dyspepsia,none,3,erosion,14.1,negative,Stage 1,medical,no,healed,30-Nov-15
+P0050,69,F,31.2,positive,recurrent,aspirin,10,former,heavy,8,nocturnal,nausea_vomiting,melena,22,erosion,10.3,positive,Stage 1,endoscopic,yes,healed,8-Sep-22
+P0051,35,M,24.7,negative,previous,none,0,current,none,3,fasting,dyspepsia,none,4,erosion,14.5,negative,Stage 1,medical,no,healed,8-Jan-17
+P0052,50,F,28.3,positive,none,NSAIDs,6,never,moderate,5,postprandial,dyspepsia,none,13,erosion,12.9,positive,Stage 1,medical,no,persistent,11-Oct-18
+P0053,62,M,30.3,positive,previous,aspirin,9,former,heavy,7,nocturnal,nausea_vomiting,melena,20,erosion,9.4,positive,Stage 1,surgical,yes,healed,23-Sep-16
+P0054,73,F,29,negative,recurrent,NSAIDs,12,current,none,9,mixed,alarm_symptoms,hematemesis,34,erosion,8,positive,Stage 1,medical,yes,healed,30-May-24
+P0055,31,M,23.2,positive,none,none,0,never,moderate,2,postprandial,dyspepsia,none,3,erosion,13.7,negative,Stage 1,medical,no,persistent,25-Jul-20
+P0056,47,F,27.6,negative,previous,NSAIDs,5,former,moderate,5,fasting,dyspepsia,none,12,erosion,12.7,positive,Stage 1,endoscopic,no,healed,12-Jul-17
+P0057,65,M,29.8,positive,recurrent,aspirin,10,current,heavy,8,nocturnal,nausea_vomiting,hematemesis,23,erosion,9,positive,Stage 1,medical,yes,healed,1-Apr-18
+P0058,70,F,28.9,positive,previous,NSAIDs,12,never,none,9,mixed,alarm_symptoms,hematemesis,33,erosion,8.1,positive,Stage 1,medical,yes,healed,9-Oct-16
+P0059,33,M,24.3,positive,none,none,0,former,none,3,postprandial,dyspepsia,none,4,erosion,13.8,negative,Stage 1,surgical,no,persistent,31-Jul-18
+P0060,54,F,28.6,negative,previous,NSAIDs,6,current,moderate,6,fasting,dyspepsia,none,14,erosion,12.8,positive,Stage 1,medical,no,healed,31-Jul-18
+P0061,36,M,24.5,positive,none,none,0,never,none,3,postprandial,dyspepsia,none,3,superficial,14.3,negative,Stage 1,endoscopic,no,healed,25-Mar-20
+P0062,51,F,28.1,negative,recurrent,NSAIDs,6,former,moderate,5,fasting,dyspepsia,none,13,superficial,12.5,positive,Stage 1,medical,no,healed,29-Jun-20
+P0063,62,M,30.2,positive,previous,aspirin,9,current,heavy,7,nocturnal,nausea_vomiting,melena,20,superficial,9.2,positive,Stage 1,medical,yes,persistent,18-Feb-23
+P0064,74,F,28.6,positive,none,NSAIDs,12,never,none,9,mixed,alarm_symptoms,hematemesis,36,erosion,7.7,positive,Stage 1,surgical,yes,healed,8-Jul-18
+P0065,29,M,23,negative,previous,none,0,former,moderate,2,postprandial,dyspepsia,none,3,superficial,14,negative,Stage 1,medical,no,persistent,15-Jan-18
+P0066,48,F,27.5,positive,recurrent,NSAIDs,5,current,moderate,5,fasting,dyspepsia,none,11,erosion,12.6,positive,Stage 1,medical,no,healed,21-Apr-21
+P0067,65,M,29.9,positive,none,aspirin,10,never,heavy,8,nocturnal,nausea_vomiting,melena,23,superficial,9.1,positive,Stage 1,endoscopic,yes,healed,4-Aug-15
+P0068,70,F,28.8,negative,previous,NSAIDs,12,former,none,9,mixed,alarm_symptoms,hematemesis,34,superficial,8,positive,Stage 1,medical,yes,persistent,6-Nov-24
+P0069,33,M,24.4,positive,recurrent,none,0,current,none,3,postprandial,dyspepsia,none,4,superficial,13.9,negative,Stage 1,medical,no,healed,12-Oct-24
+P0070,54,F,28.5,negative,previous,NSAIDs,6,never,moderate,6,fasting,dyspepsia,none,14,erosion,12.7,positive,Stage 1,surgical,no,healed,20-Aug-23
+P0071,38,M,25.1,positive,none,none,0,former,none,3,postprandial,dyspepsia,none,3,superficial,14.1,negative,Stage 1,medical,no,healed,27-Feb-21
+P0072,61,F,30,positive,previous,aspirin,9,current,heavy,7,nocturnal,nausea_vomiting,melena,21,superficial,9,positive,Stage 1,endoscopic,yes,persistent,10-Oct-17
+P0073,30,M,23.5,negative,none,none,0,never,moderate,2,fasting,dyspepsia,none,4,superficial,13.8,negative,Stage 1,medical,no,healed,21-Sep-20
+P0074,46,F,27.4,positive,recurrent,NSAIDs,5,former,moderate,5,postprandial,dyspepsia,none,12,erosion,12.8,positive,Stage 1,medical,no,healed,3-Aug-23
+P0075,66,M,29.7,positive,previous,aspirin,10,current,heavy,8,nocturnal,nausea_vomiting,hematemesis,24,superficial,9.2,positive,Stage 1,surgical,yes,persistent,12-Nov-24
+P0076,71,F,28.9,negative,none,NSAIDs,12,never,none,9,mixed,alarm_symptoms,hematemesis,35,erosion,7.9,positive,Stage 1,medical,yes,healed,12-Jul-15
+P0077,32,M,24.1,positive,previous,none,0,former,moderate,3,postprandial,dyspepsia,none,4,superficial,13.7,negative,Stage 1,medical,no,healed,14-Feb-23
+P0078,55,F,29,negative,recurrent,NSAIDs,7,current,moderate,6,fasting,dyspepsia,none,13,superficial,12.6,positive,Stage 1,endoscopic,no,healed,20-Sep-17
+P0079,43,M,26.5,positive,none,none,0,never,none,3,postprandial,dyspepsia,none,3,superficial,14.2,negative,Stage 1,medical,no,persistent,5-Jul-18
+P0080,69,F,31.2,positive,previous,aspirin,10,former,heavy,8,nocturnal,nausea_vomiting,melena,22,erosion,10.3,positive,Stage 1,medical,yes,healed,9-Sep-24
+P0081,35,M,24.7,negative,recurrent,none,0,current,none,3,fasting,dyspepsia,none,4,superficial,14.5,negative,Stage 1,surgical,no,healed,18-Apr-23
+P0082,50,F,28.3,positive,previous,NSAIDs,6,never,moderate,5,postprandial,dyspepsia,none,13,deep,12.9,positive,Stage 1,medical,no,persistent,24-May-22
+P0083,62,M,30.3,positive,none,aspirin,9,former,heavy,7,nocturnal,nausea_vomiting,melena,20,deep,9.4,positive,Stage 1,endoscopic,yes,healed,1-Sep-16
+P0084,73,F,29,negative,previous,NSAIDs,12,current,none,9,mixed,alarm_symptoms,hematemesis,34,erosion,8,positive,Stage 1,medical,yes,healed,14-Dec-24
+P0085,31,M,23.2,positive,none,none,0,never,moderate,2,postprandial,dyspepsia,none,3,superficial,13.7,negative,Stage 1,medical,no,healed,15-May-15
+P0086,47,F,27.6,negative,recurrent,NSAIDs,5,former,moderate,5,fasting,dyspepsia,none,12,erosion,12.7,positive,Stage 1,surgical,no,persistent,28-Apr-17
+P0087,65,M,29.8,positive,previous,aspirin,10,current,heavy,8,nocturnal,nausea_vomiting,hematemesis,23,deep,9,positive,Stage 1,medical,yes,healed,27-Oct-16
+P0088,70,F,28.9,positive,none,NSAIDs,12,never,none,9,mixed,alarm_symptoms,hematemesis,33,superficial,8.1,positive,Stage 1,medical,yes,healed,8-Apr-18
+P0089,33,M,24.3,negative,previous,none,0,former,none,3,postprandial,dyspepsia,none,4,deep,13.8,negative,Stage 1,endoscopic,no,persistent,7-Feb-22
+P0090,54,F,28.6,positive,recurrent,NSAIDs,6,current,moderate,6,fasting,dyspepsia,none,14,erosion,12.8,positive,Stage 1,medical,no,healed,4-Nov-25
+P0091,39,M,25.3,positive,none,none,0,never,none,3,postprandial,dyspepsia,none,3,superficial,14.2,negative,Stage 1,medical,no,healed,17-Sep-18
+P0092,60,F,30.1,negative,previous,aspirin,9,former,heavy,7,nocturnal,nausea_vomiting,melena,21,deep,9,positive,Stage 1,surgical,yes,healed,30-Apr-15
+P0093,31,M,23.7,positive,recurrent,none,0,current,moderate,2,fasting,dyspepsia,none,4,deep,13.9,negative,Stage 1,medical,no,persistent,22-Mar-21
+P0094,45,F,27.5,negative,previous,NSAIDs,5,never,moderate,5,postprandial,dyspepsia,none,12,erosion,12.8,positive,Stage 1,endoscopic,no,healed,20-Jul-20
+P0095,66,M,29.7,positive,none,aspirin,10,former,heavy,8,nocturnal,nausea_vomiting,hematemesis,24,superficial,9.2,positive,Stage 1,medical,yes,healed,24-Jun-20
+P0096,71,F,28.8,positive,previous,NSAIDs,12,current,none,9,mixed,alarm_symptoms,hematemesis,35,erosion,7.9,positive,Stage 1,medical,yes,persistent,16-Nov-16
+P0097,32,M,24,negative,none,none,0,never,moderate,3,postprandial,dyspepsia,none,4,deep,13.6,negative,Stage 1,surgical,no,healed,23-Sep-20
+P0098,55,F,29.1,positive,recurrent,NSAIDs,7,former,moderate,6,fasting,dyspepsia,none,13,superficial,12.5,positive,Stage 1,medical,no,healed,23-Mar-24
+P0099,43,M,26.5,positive,previous,none,0,current,none,3,postprandial,dyspepsia,none,3,deep,14.2,negative,Stage 1,medical,no,healed,22-Apr-24
+P0100,69,F,31.2,negative,none,aspirin,10,never,heavy,8,nocturnal,nausea_vomiting,melena,22,erosion,10.3,positive,Stage 1,endoscopic,yes,persistent,10-May-22
+P0101,36,M,24.5,positive,previous,none,0,former,none,3,postprandial,dyspepsia,none,3,superficial,14.3,negative,Stage 1,medical,no,healed,19-Jul-20
+P0102,51,F,28.1,negative,recurrent,NSAIDs,6,current,moderate,5,fasting,dyspepsia,none,13,deep,12.5,positive,Stage 1,medical,no,healed,22-Oct-17
+P0103,62,M,30.2,positive,none,aspirin,9,never,heavy,7,nocturnal,nausea_vomiting,melena,20,deep,9.2,positive,Stage 1,surgical,yes,persistent,14-Jun-22
+P0104,74,F,28.6,positive,previous,NSAIDs,12,former,none,9,mixed,alarm_symptoms,hematemesis,36,erosion,7.7,positive,Stage 1,medical,yes,healed,24-May-17
+P0105,29,M,23,negative,recurrent,none,0,current,moderate,2,postprandial,dyspepsia,none,3,superficial,14,negative,Stage 1,endoscopic,no,healed,12-Sep-16
+P0106,48,F,27.5,positive,previous,NSAIDs,5,never,moderate,5,fasting,dyspepsia,none,11,erosion,12.6,positive,Stage 1,medical,no,healed,19-May-16
+P0107,65,M,29.9,positive,none,aspirin,10,former,heavy,8,nocturnal,nausea_vomiting,hematemesis,23,deep,9.1,positive,Stage 1,medical,yes,persistent,23-Jan-24
+P0108,70,F,28.8,negative,previous,NSAIDs,12,current,none,9,mixed,alarm_symptoms,hematemesis,34,superficial,8,positive,Stage 1,surgical,yes,healed,8-Aug-20
+P0109,33,M,24.4,positive,none,none,0,never,none,3,postprandial,dyspepsia,none,4,deep,13.9,negative,Stage 1,medical,no,healed,11-Feb-25
+P0110,54,F,28.5,negative,recurrent,NSAIDs,6,former,moderate,6,fasting,dyspepsia,none,14,erosion,12.7,positive,Stage 1,medical,no,persistent,6-Mar-19
+P0111,37,M,24.6,positive,previous,none,0,current,none,3,postprandial,dyspepsia,none,3,superficial,14.2,negative,Stage 1,endoscopic,no,healed,22-Feb-16
+P0112,52,F,28.2,positive,none,NSAIDs,6,never,moderate,5,fasting,dyspepsia,none,13,deep,12.6,positive,Stage 1,medical,no,healed,26-Aug-17
+P0113,63,M,30.3,negative,previous,aspirin,9,former,heavy,7,nocturnal,nausea_vomiting,melena,21,deep,9.3,positive,Stage 1,medical,yes,healed,14-Aug-18
+P0114,75,F,28.7,positive,recurrent,NSAIDs,12,current,none,9,mixed,alarm_symptoms,hematemesis,36,erosion,7.7,positive,Stage 1,surgical,yes,persistent,23-Jul-18
+P0115,30,M,23.2,positive,none,none,0,never,moderate,2,postprandial,dyspepsia,none,3,superficial,14,negative,Stage 1,medical,no,healed,20-Apr-21
+P0116,49,F,27.6,negative,previous,NSAIDs,5,former,moderate,5,fasting,dyspepsia,none,11,erosion,12.7,positive,Stage 1,endoscopic,no,healed,1-Jan-19
+P0117,66,M,29.8,positive,recurrent,aspirin,10,current,heavy,8,nocturnal,nausea_vomiting,melena,23,deep,9.1,positive,Stage 1,medical,yes,persistent,29-Jan-23
+P0118,71,F,28.9,negative,previous,NSAIDs,12,never,none,9,mixed,alarm_symptoms,hematemesis,34,superficial,8,positive,Stage 1,medical,yes,healed,7-Dec-19
+P0119,34,M,24.3,positive,none,none,0,former,none,3,postprandial,dyspepsia,none,4,deep,13.9,negative,Stage 1,surgical,no,healed,16-Jun-19
+P0120,55,F,28.4,positive,previous,NSAIDs,6,current,moderate,6,fasting,dyspepsia,none,14,erosion,12.8,positive,Stage 1,medical,no,healed,25-Nov-23
+P0121,39,M,25.4,negative,none,none,0,never,none,3,postprandial,dyspepsia,none,3,superficial,14.1,negative,Stage 1,medical,no,persistent,4-Sep-19
+P0122,61,F,30.1,positive,recurrent,aspirin,9,former,heavy,7,nocturnal,nausea_vomiting,melena,21,deep,9,positive,Stage 1,endoscopic,yes,healed,30-Mar-25
+P0123,31,M,23.7,positive,previous,none,0,current,moderate,2,fasting,dyspepsia,none,4,deep,13.8,negative,Stage 1,medical,no,healed,27-Nov-16
+P0124,47,F,27.5,negative,none,NSAIDs,5,never,moderate,5,postprandial,dyspepsia,none,12,erosion,12.9,positive,Stage 1,medical,no,persistent,21-May-16
+P0125,67,M,29.7,positive,previous,aspirin,10,former,heavy,8,nocturnal,nausea_vomiting,hematemesis,24,superficial,9.2,positive,Stage 1,surgical,yes,healed,13-Feb-16
+P0126,72,F,28.8,negative,recurrent,NSAIDs,12,current,none,9,mixed,alarm_symptoms,hematemesis,35,erosion,7.9,positive,Stage 1,medical,yes,healed,31-May-20
+P0127,33,M,24.1,positive,none,none,0,never,moderate,3,postprandial,dyspepsia,none,4,deep,13.7,negative,Stage 1,endoscopic,no,healed,8-Apr-24
+P0128,56,F,29.2,positive,previous,NSAIDs,7,former,moderate,6,fasting,dyspepsia,none,13,superficial,12.6,positive,Stage 1,medical,no,persistent,20-Mar-22
+P0129,44,M,26.6,negative,recurrent,none,0,current,none,3,postprandial,dyspepsia,none,3,deep,14.2,negative,Stage 1,medical,no,healed,10-Dec-21
+P0130,70,F,31.3,positive,previous,aspirin,10,never,heavy,8,nocturnal,nausea_vomiting,melena,22,erosion,10.3,positive,Stage 1,surgical,yes,healed,13-Jul-22
+P0131,36,M,24.5,positive,none,none,0,former,none,3,postprandial,dyspepsia,none,3,superficial,14.3,negative,Stage 1,medical,no,persistent,13-May-15
+P0132,51,F,28.1,negative,previous,NSAIDs,6,current,moderate,5,fasting,dyspepsia,none,13,deep,12.5,positive,Stage 1,medical,no,healed,4-Oct-23
+P0133,62,M,30.2,positive,none,aspirin,9,never,heavy,7,nocturnal,nausea_vomiting,melena,20,deep,9.2,positive,Stage 1,endoscopic,yes,healed,16-Jun-15
+P0134,74,F,28.6,negative,recurrent,NSAIDs,12,former,none,9,mixed,alarm_symptoms,hematemesis,36,erosion,7.7,positive,Stage 1,medical,yes,healed,5-Jan-22
+P0135,29,M,23,positive,previous,none,0,current,moderate,2,postprandial,dyspepsia,none,3,superficial,14,negative,Stage 1,medical,no,persistent,13-Jun-17
+P0136,48,F,27.5,positive,none,NSAIDs,5,never,moderate,5,fasting,dyspepsia,none,11,erosion,12.6,positive,Stage 1,surgical,no,healed,11-Mar-15
+P0137,65,M,29.9,negative,previous,aspirin,10,former,heavy,8,nocturnal,nausea_vomiting,hematemesis,23,deep,9.1,positive,Stage 1,medical,yes,healed,25-Mar-22
+P0138,70,F,28.8,positive,recurrent,NSAIDs,12,current,none,9,mixed,alarm_symptoms,hematemesis,34,superficial,8,positive,Stage 1,endoscopic,yes,persistent,15-Jan-21
+P0139,33,M,24.3,positive,none,none,0,never,none,3,postprandial,dyspepsia,none,4,deep,13.9,negative,Stage 1,medical,no,healed,27-May-19
+P0140,54,F,28.5,negative,previous,NSAIDs,6,former,moderate,6,fasting,dyspepsia,none,14,erosion,12.7,positive,Stage 1,medical,no,healed,24-Sep-24
+P0141,38,M,25.1,positive,recurrent,none,0,current,none,3,postprandial,dyspepsia,none,3,superficial,14.1,negative,Stage 1,surgical,no,healed,19-Jul-19
+P0142,61,F,30,negative,previous,aspirin,9,never,heavy,7,nocturnal,nausea_vomiting,melena,21,deep,9,positive,Stage 1,medical,yes,persistent,17-Nov-16
+P0143,30,M,23.5,positive,none,none,0,former,moderate,2,fasting,dyspepsia,none,4,deep,13.8,negative,Stage 1,medical,no,healed,8-Nov-20
+P0144,46,F,27.4,positive,previous,NSAIDs,5,current,moderate,5,postprandial,dyspepsia,none,12,erosion,12.8,positive,Stage 1,endoscopic,no,healed,28-Oct-22
+P0145,66,M,29.7,negative,none,aspirin,10,never,heavy,8,nocturnal,nausea_vomiting,hematemesis,24,superficial,9.2,positive,Stage 1,medical,yes,persistent,1-Mar-21
+P0146,71,F,28.8,positive,recurrent,NSAIDs,12,former,none,9,mixed,alarm_symptoms,hematemesis,35,erosion,7.9,positive,Stage 1,medical,yes,healed,6-Feb-18
+P0147,32,M,24,positive,previous,none,0,current,moderate,3,postprandial,dyspepsia,none,4,deep,13.6,negative,Stage 1,surgical,no,healed,19-Oct-25
+P0148,55,F,29.1,negative,none,NSAIDs,7,never,moderate,6,fasting,dyspepsia,none,13,superficial,12.5,positive,Stage 1,medical,no,healed,15-Jul-18
+P0149,43,M,26.5,positive,previous,none,0,former,none,3,postprandial,dyspepsia,none,3,deep,14.2,negative,Stage 1,endoscopic,no,persistent,29-May-21
+P0150,69,F,31.2,negative,recurrent,aspirin,10,current,heavy,8,nocturnal,nausea_vomiting,melena,22,erosion,10.3,positive,Stage 1,medical,yes,healed,17-Feb-24
+P0151,36,M,24.5,positive,none,none,0,never,none,3,postprandial,dyspepsia,none,3,superficial,14.3,negative,Stage 1,medical,no,healed,2-Apr-21
+P0152,51,F,28.1,positive,previous,NSAIDs,6,former,moderate,5,fasting,dyspepsia,none,13,deep,12.5,positive,Stage 1,surgical,no,persistent,24-Feb-21
+P0153,62,M,30.2,negative,recurrent,aspirin,9,current,heavy,7,nocturnal,nausea_vomiting,melena,20,deep,9.2,positive,Stage 1,medical,yes,healed,30-Nov-17
+P0154,74,F,28.6,positive,previous,NSAIDs,12,never,none,9,mixed,alarm_symptoms,hematemesis,36,erosion,7.7,positive,Stage 1,medical,yes,healed,13-Dec-17
+P0155,29,M,23,positive,none,none,0,former,moderate,2,postprandial,dyspepsia,none,3,superficial,14,negative,Stage 1,endoscopic,no,healed,26-Nov-25
+P0156,48,F,27.5,negative,previous,NSAIDs,5,current,moderate,5,fasting,dyspepsia,none,11,erosion,12.6,positive,Stage 1,medical,no,persistent,16-Aug-18
+P0157,65,M,29.9,positive,none,aspirin,10,never,heavy,8,nocturnal,nausea_vomiting,hematemesis,23,deep,9.1,positive,Stage 1,medical,yes,healed,22-Sep-17
+P0158,70,F,28.8,negative,recurrent,NSAIDs,12,former,none,9,mixed,alarm_symptoms,hematemesis,34,superficial,8,positive,Stage 1,surgical,yes,healed,8-Sep-21
+P0159,33,M,24.3,positive,previous,none,0,current,none,3,postprandial,dyspepsia,none,4,deep,13.9,negative,Stage 1,medical,no,persistent,22-Apr-18
+P0160,54,F,28.5,positive,none,NSAIDs,6,never,moderate,6,fasting,dyspepsia,none,14,erosion,12.7,positive,Stage 1,endoscopic,no,healed,23-Sep-16
+P0161,37,M,24.4,negative,previous,none,0,former,none,3,postprandial,dyspepsia,none,3,superficial,14.1,negative,Stage 1,medical,no,healed,23-Jun-17
+P0162,53,F,28,positive,recurrent,NSAIDs,6,current,moderate,5,fasting,dyspepsia,none,13,deep,12.6,positive,Stage 1,medical,no,healed,28-Jul-23
+P0163,64,M,30.3,positive,none,aspirin,9,never,heavy,7,nocturnal,nausea_vomiting,melena,21,deep,9.2,positive,Stage 1,surgical,yes,persistent,26-Nov-18
+P0164,75,F,28.7,negative,previous,NSAIDs,12,former,none,9,mixed,alarm_symptoms,hematemesis,36,erosion,7.8,positive,Stage 1,medical,yes,healed,29-May-21
+P0165,31,M,23.3,positive,recurrent,none,0,current,moderate,2,postprandial,dyspepsia,none,3,superficial,14,negative,Stage 1,medical,no,healed,29-Nov-21
+P0166,50,F,27.6,negative,previous,NSAIDs,5,never,moderate,5,fasting,dyspepsia,none,12,erosion,12.7,positive,Stage 1,endoscopic,no,persistent,3-Jul-15
+P0167,67,M,29.8,positive,none,aspirin,10,former,heavy,8,nocturnal,nausea_vomiting,hematemesis,24,deep,9.1,positive,Stage 1,medical,yes,healed,17-May-17
+P0168,72,F,28.9,positive,previous,NSAIDs,12,current,none,9,mixed,alarm_symptoms,hematemesis,35,superficial,7.9,positive,Stage 1,medical,yes,healed,15-Jul-21
+P0169,34,M,24.2,negative,none,none,0,never,none,3,postprandial,dyspepsia,none,4,deep,13.9,negative,Stage 1,surgical,no,healed,22-Jul-24
+P0170,56,F,29.1,positive,recurrent,NSAIDs,7,former,moderate,6,fasting,dyspepsia,none,13,erosion,12.6,positive,Stage 1,medical,no,persistent,12-Jun-15
+P0171,45,M,26.5,positive,previous,none,0,current,none,3,postprandial,dyspepsia,none,3,superficial,14.2,negative,Stage 2,endoscopic,no,healed,8-Nov-24
+P0172,70,F,31.2,negative,none,aspirin,10,never,heavy,8,nocturnal,nausea_vomiting,melena,22,superficial,10.3,positive,Stage 2,medical,yes,healed,15-Feb-20
+P0173,36,M,24.5,positive,previous,none,0,former,none,3,postprandial,dyspepsia,none,3,superficial,14.3,negative,Stage 2,medical,no,persistent,25-Jan-20
+P0174,51,F,28.1,negative,recurrent,NSAIDs,6,current,moderate,5,fasting,dyspepsia,none,13,superficial,12.5,positive,Stage 2,surgical,no,healed,15-Nov-20
+P0175,62,M,30.2,positive,none,aspirin,9,never,heavy,7,nocturnal,nausea_vomiting,melena,20,superficial,9.2,positive,Stage 2,medical,yes,healed,8-Oct-24
+P0176,74,F,28.6,positive,previous,NSAIDs,12,former,none,9,mixed,alarm_symptoms,hematemesis,36,superficial,7.7,positive,Stage 2,medical,yes,healed,26-Apr-16
+P0177,29,M,23,negative,recurrent,none,0,current,moderate,2,postprandial,dyspepsia,none,3,superficial,14,negative,Stage 2,endoscopic,no,persistent,18-Sep-18
+P0178,48,F,27.5,positive,previous,NSAIDs,5,never,moderate,5,fasting,dyspepsia,none,11,superficial,12.6,positive,Stage 2,medical,no,healed,2-Apr-19
+P0179,65,M,29.9,positive,none,aspirin,10,former,heavy,8,nocturnal,nausea_vomiting,hematemesis,23,superficial,9.1,positive,Stage 2,medical,yes,healed,22-Aug-19
+P0180,70,F,28.8,negative,previous,NSAIDs,12,current,none,9,mixed,alarm_symptoms,hematemesis,34,superficial,8,positive,Stage 2,surgical,yes,persistent,6-Dec-20
+P0181,33,M,24.3,positive,none,none,0,never,none,3,postprandial,dyspepsia,none,4,superficial,13.9,negative,Stage 2,medical,no,healed,28-Apr-16
+P0182,54,F,28.5,negative,recurrent,NSAIDs,6,former,moderate,6,fasting,dyspepsia,none,14,superficial,12.7,positive,Stage 2,endoscopic,no,healed,6-Jul-15
+P0183,38,M,25.1,positive,previous,none,0,current,none,3,postprandial,dyspepsia,none,3,superficial,14.1,negative,Stage 2,medical,no,healed,2-Dec-24
+P0184,61,F,30,positive,none,aspirin,9,never,heavy,7,nocturnal,nausea_vomiting,melena,21,superficial,9,positive,Stage 2,medical,yes,persistent,18-Sep-15
+P0185,30,M,23.5,negative,recurrent,none,0,former,moderate,2,fasting,dyspepsia,none,4,superficial,13.8,negative,Stage 2,surgical,no,healed,27-Oct-24
+P0186,46,F,27.4,positive,previous,NSAIDs,5,current,moderate,5,postprandial,dyspepsia,none,12,superficial,12.8,positive,Stage 2,medical,no,healed,23-Oct-16
+P0187,66,M,29.7,positive,none,aspirin,10,never,heavy,8,nocturnal,nausea_vomiting,hematemesis,24,superficial,9.2,positive,Stage 2,medical,yes,persistent,26-Jan-19
+P0188,71,F,28.8,negative,previous,NSAIDs,12,former,none,9,mixed,alarm_symptoms,hematemesis,35,superficial,7.9,positive,Stage 2,endoscopic,yes,healed,21-Dec-20
+P0189,32,M,24,positive,recurrent,none,0,current,moderate,3,postprandial,dyspepsia,none,4,superficial,13.6,negative,Stage 2,medical,no,healed,25-Oct-25
+P0190,55,F,29.1,negative,none,NSAIDs,7,never,moderate,6,fasting,dyspepsia,none,13,superficial,12.5,positive,Stage 2,medical,no,healed,30-Nov-19
+P0191,43,M,26.5,positive,previous,none,0,former,none,3,postprandial,dyspepsia,none,3,superficial,14.2,negative,Stage 2,surgical,no,persistent,6-Aug-21
+P0192,69,F,31.2,positive,none,aspirin,10,current,heavy,8,nocturnal,nausea_vomiting,melena,22,superficial,10.3,positive,Stage 2,medical,yes,healed,31-Jul-17
+P0193,36,M,24.5,negative,recurrent,none,0,never,none,3,postprandial,dyspepsia,none,3,superficial,14.3,negative,Stage 2,endoscopic,no,healed,10-Aug-15
+P0194,51,F,28.1,positive,previous,NSAIDs,6,former,moderate,5,fasting,dyspepsia,none,13,superficial,12.5,positive,Stage 2,medical,no,persistent,25-May-20
+P0195,62,M,30.2,positive,none,aspirin,9,current,heavy,7,nocturnal,nausea_vomiting,melena,20,superficial,9.2,positive,Stage 2,medical,yes,healed,1-Oct-19
+P0196,74,F,28.6,negative,previous,NSAIDs,12,never,none,9,mixed,alarm_symptoms,hematemesis,36,superficial,7.7,positive,Stage 2,surgical,yes,healed,28-Sep-18
+P0197,29,M,23,positive,recurrent,none,0,former,moderate,2,postprandial,dyspepsia,none,3,superficial,14,negative,Stage 2,medical,no,persistent,21-Feb-19
+P0198,48,F,27.5,negative,previous,NSAIDs,5,current,moderate,5,fasting,dyspepsia,none,11,superficial,12.6,positive,Stage 2,medical,no,healed,23-Jul-19
+P0199,65,M,29.9,positive,none,aspirin,10,never,heavy,8,nocturnal,nausea_vomiting,hematemesis,23,superficial,9.1,positive,Stage 2,endoscopic,yes,healed,17-Aug-24
+P0200,70,F,28.8,positive,recurrent,NSAIDs,12,former,none,9,mixed,alarm_symptoms,hematemesis,34,superficial,8,positive,Stage 2,medical,yes,persistent,9-Nov-17
+P0201,33,M,24.3,negative,previous,none,0,current,none,3,postprandial,dyspepsia,none,4,superficial,13.9,negative,Stage 2,medical,no,healed,14-Sep-18
+P0202,54,F,28.5,positive,none,NSAIDs,6,never,moderate,6,fasting,dyspepsia,none,14,superficial,12.7,positive,Stage 2,surgical,no,healed,5-May-23
+P0203,38,M,25.1,positive,previous,none,0,former,none,3,postprandial,dyspepsia,none,3,superficial,14.1,negative,Stage 2,medical,no,persistent,19-Oct-22
+P0204,61,F,30,negative,recurrent,aspirin,9,current,heavy,7,nocturnal,nausea_vomiting,melena,21,superficial,9,positive,Stage 2,endoscopic,yes,healed,22-Mar-15
+P0205,30,M,23.5,positive,none,none,0,never,moderate,2,fasting,dyspepsia,none,4,superficial,13.8,negative,Stage 2,medical,no,healed,8-Jun-23
+P0206,46,F,27.4,negative,previous,NSAIDs,5,former,moderate,5,postprandial,dyspepsia,none,12,superficial,12.8,positive,Stage 2,medical,no,persistent,9-Oct-17
+P0207,66,M,29.7,positive,none,aspirin,10,current,heavy,8,nocturnal,nausea_vomiting,hematemesis,24,superficial,9.2,positive,Stage 2,surgical,yes,healed,30-May-24
+P0208,71,F,28.8,positive,recurrent,NSAIDs,12,never,none,9,mixed,alarm_symptoms,hematemesis,35,superficial,7.9,positive,Stage 2,medical,yes,healed,1-Jul-18
+P0209,32,M,24,negative,previous,none,0,former,moderate,3,postprandial,dyspepsia,none,4,superficial,13.6,negative,Stage 2,medical,no,persistent,23-Nov-18
+P0210,55,F,29.1,positive,previous,NSAIDs,7,current,moderate,6,fasting,dyspepsia,none,13,superficial,12.5,positive,Stage 2,endoscopic,no,healed,18-May-17
+P0211,36,M,24.5,positive,none,none,0,never,none,3,postprandial,dyspepsia,none,3,superficial,14.3,negative,Stage 2,medical,no,healed,12-Jun-22
+P0212,51,F,28.1,negative,recurrent,NSAIDs,6,former,moderate,5,fasting,dyspepsia,none,13,superficial,12.5,positive,Stage 2,medical,no,persistent,10-Jul-21
+P0213,62,M,30.2,positive,none,aspirin,9,current,heavy,7,nocturnal,nausea_vomiting,melena,20,superficial,9.2,positive,Stage 2,surgical,yes,healed,30-Aug-25
+P0214,74,F,28.6,negative,previous,NSAIDs,12,never,none,9,mixed,alarm_symptoms,hematemesis,36,superficial,7.7,positive,Stage 2,medical,yes,healed,6-Jul-15
+P0215,29,M,23,positive,recurrent,none,0,former,moderate,2,postprandial,dyspepsia,none,3,superficial,14,negative,Stage 2,endoscopic,no,persistent,8-Oct-19
+P0216,48,F,27.5,positive,previous,NSAIDs,5,current,moderate,5,fasting,dyspepsia,none,11,superficial,12.6,positive,Stage 2,medical,no,healed,26-May-23
+P0217,65,M,29.9,negative,none,aspirin,10,never,heavy,8,nocturnal,nausea_vomiting,hematemesis,23,superficial,9.1,positive,Stage 2,medical,yes,healed,22-Apr-22
+P0218,70,F,28.8,positive,previous,NSAIDs,12,former,none,9,mixed,alarm_symptoms,hematemesis,34,superficial,8,positive,Stage 2,surgical,yes,persistent,17-Dec-22
+P0219,33,M,24.3,positive,none,none,0,current,none,3,postprandial,dyspepsia,none,4,superficial,13.9,negative,Stage 2,medical,no,healed,15-Apr-22
+P0220,54,F,28.5,negative,recurrent,NSAIDs,6,never,moderate,6,fasting,dyspepsia,none,14,superficial,12.7,positive,Stage 2,medical,no,healed,10-May-18
+P0221,38,M,25.1,positive,previous,none,0,former,none,3,postprandial,dyspepsia,none,3,erosion,14.1,negative,Stage 2,endoscopic,no,healed,11-Jun-15
+P0222,61,F,30,negative,none,aspirin,9,current,heavy,7,nocturnal,nausea_vomiting,melena,21,superficial,9,positive,Stage 2,medical,yes,persistent,19-Dec-17
+P0223,30,M,23.5,positive,previous,none,0,never,moderate,2,fasting,dyspepsia,none,4,superficial,13.8,negative,Stage 2,medical,no,healed,19-Aug-17
+P0224,46,F,27.4,positive,recurrent,NSAIDs,5,former,moderate,5,postprandial,dyspepsia,none,12,erosion,12.8,positive,Stage 2,surgical,no,persistent,30-Jul-19
+P0225,66,M,29.7,negative,none,aspirin,10,current,heavy,8,nocturnal,nausea_vomiting,hematemesis,24,superficial,9.2,positive,Stage 2,medical,yes,healed,8-Feb-21
+P0226,71,F,28.8,positive,previous,NSAIDs,12,never,none,9,mixed,alarm_symptoms,hematemesis,35,superficial,7.9,positive,Stage 2,endoscopic,yes,healed,21-Apr-24
+P0227,32,M,24,positive,recurrent,none,0,former,moderate,3,postprandial,dyspepsia,none,4,erosion,13.6,negative,Stage 2,medical,no,healed,5-Dec-25
+P0228,55,F,29.1,negative,previous,NSAIDs,7,current,moderate,6,fasting,dyspepsia,none,13,superficial,12.5,positive,Stage 2,medical,no,persistent,8-Jan-17
+P0229,43,M,26.5,positive,none,none,0,never,none,3,postprandial,dyspepsia,none,3,superficial,14.2,negative,Stage 2,surgical,no,healed,18-Jul-18
+P0230,69,F,31.2,negative,previous,aspirin,10,former,heavy,8,nocturnal,nausea_vomiting,melena,22,erosion,10.3,positive,Stage 2,medical,yes,healed,3-Aug-15
+P0231,36,M,24.5,positive,none,none,0,current,none,3,postprandial,dyspepsia,none,3,superficial,14.3,negative,Stage 2,medical,no,persistent,12-Jun-16
+P0232,51,F,28.1,positive,recurrent,NSAIDs,6,never,moderate,5,fasting,dyspepsia,none,13,superficial,12.5,positive,Stage 2,endoscopic,no,healed,5-Aug-23
+P0233,62,M,30.2,negative,previous,aspirin,9,former,heavy,7,nocturnal,nausea_vomiting,melena,20,erosion,9.2,positive,Stage 2,medical,yes,healed,18-Jul-24
+P0234,74,F,28.6,positive,none,NSAIDs,12,current,none,9,mixed,alarm_symptoms,hematemesis,36,superficial,7.7,positive,Stage 2,medical,yes,healed,22-Jul-16
+P0235,29,M,23,positive,previous,none,0,never,moderate,2,postprandial,dyspepsia,none,3,superficial,14,negative,Stage 2,surgical,no,persistent,15-Jul-15
+P0236,48,F,27.5,negative,recurrent,NSAIDs,5,former,moderate,5,fasting,dyspepsia,none,11,superficial,12.6,positive,Stage 2,medical,no,healed,9-Sep-20
+P0237,65,M,29.9,positive,none,aspirin,10,current,heavy,8,nocturnal,nausea_vomiting,hematemesis,23,erosion,9.1,positive,Stage 2,endoscopic,yes,persistent,24-Jun-18
+P0238,70,F,28.8,negative,previous,NSAIDs,12,never,none,9,mixed,alarm_symptoms,hematemesis,34,superficial,8,positive,Stage 2,medical,yes,healed,23-Apr-20
+P0239,33,M,24.3,positive,recurrent,none,0,former,none,3,postprandial,dyspepsia,none,4,erosion,13.9,negative,Stage 2,medical,no,healed,1-Sep-24
+P0240,54,F,28.5,positive,previous,NSAIDs,6,current,moderate,6,fasting,dyspepsia,none,14,superficial,12.7,positive,Stage 2,surgical,no,persistent,21-Oct-20
+P0241,38,M,25.1,negative,none,none,0,never,none,3,postprandial,dyspepsia,none,3,superficial,14.1,negative,Stage 2,medical,no,healed,25-Jul-24
+P0242,61,F,30,positive,previous,aspirin,9,former,heavy,7,nocturnal,nausea_vomiting,melena,21,superficial,9,positive,Stage 2,medical,yes,healed,15-Feb-24
+P0243,30,M,23.5,positive,none,none,0,current,moderate,2,fasting,dyspepsia,none,4,erosion,13.8,negative,Stage 2,medical,no,persistent,11-Jun-16
+P0244,46,F,27.4,negative,recurrent,NSAIDs,5,never,moderate,5,postprandial,dyspepsia,none,12,superficial,12.8,positive,Stage 2,endoscopic,no,healed,6-Jun-21
+P0245,66,M,29.7,positive,previous,aspirin,10,former,heavy,8,nocturnal,nausea_vomiting,hematemesis,24,superficial,9.2,positive,Stage 2,medical,yes,healed,15-May-21
+P0246,71,F,28.8,negative,none,NSAIDs,12,current,none,9,mixed,alarm_symptoms,hematemesis,35,superficial,7.9,positive,Stage 2,surgical,yes,healed,15-Dec-24
+P0247,32,M,24,positive,previous,none,0,never,moderate,3,postprandial,dyspepsia,none,4,erosion,13.6,negative,Stage 2,medical,no,persistent,30-Jun-23
+P0248,55,F,29.1,positive,recurrent,NSAIDs,7,former,moderate,6,fasting,dyspepsia,none,13,superficial,12.5,positive,Stage 2,endoscopic,no,healed,10-Sep-15
+P0249,43,M,26.5,negative,none,none,0,current,none,3,postprandial,dyspepsia,none,3,erosion,14.2,negative,Stage 2,medical,no,healed,21-Feb-21
+P0250,69,F,31.2,positive,previous,aspirin,10,never,heavy,8,nocturnal,nausea_vomiting,melena,22,superficial,10.3,positive,Stage 2,medical,yes,persistent,14-Mar-19
+P0251,36,M,24.5,positive,recurrent,none,0,former,none,3,postprandial,dyspepsia,none,3,superficial,14.3,negative,Stage 2,surgical,no,healed,21-Jul-22
+P0252,51,F,28.1,negative,previous,NSAIDs,6,current,moderate,5,fasting,dyspepsia,none,13,superficial,12.5,positive,Stage 2,medical,no,healed,23-Nov-21
+P0253,62,M,30.2,positive,none,aspirin,9,never,heavy,7,nocturnal,nausea_vomiting,melena,20,erosion,9.2,positive,Stage 2,medical,yes,healed,12-Aug-22
+P0254,74,F,28.6,negative,previous,NSAIDs,12,former,none,9,mixed,alarm_symptoms,hematemesis,36,superficial,7.7,positive,Stage 2,endoscopic,yes,persistent,31-Jul-19
+P0255,29,M,23,positive,none,none,0,current,moderate,2,postprandial,dyspepsia,none,3,superficial,14,negative,Stage 2,medical,no,healed,1-Oct-24
+P0256,48,F,27.5,positive,recurrent,NSAIDs,5,never,moderate,5,fasting,dyspepsia,none,11,superficial,12.6,positive,Stage 2,surgical,no,healed,26-May-18
+P0257,65,M,29.9,negative,previous,aspirin,10,former,heavy,8,nocturnal,nausea_vomiting,hematemesis,23,erosion,9.1,positive,Stage 2,medical,yes,healed,10-Aug-18
+P0258,70,F,28.8,positive,none,NSAIDs,12,current,none,9,mixed,alarm_symptoms,hematemesis,34,superficial,8,positive,Stage 2,medical,yes,persistent,14-Oct-18
+P0259,33,M,24.3,positive,previous,none,0,never,none,3,postprandial,dyspepsia,none,4,erosion,13.9,negative,Stage 2,medical,no,healed,3-Jan-21
+P0260,54,F,28.5,negative,recurrent,NSAIDs,6,former,moderate,6,fasting,dyspepsia,none,14,superficial,12.7,positive,Stage 2,endoscopic,no,persistent,11-May-24
+P0261,39,M,25.2,positive,none,none,0,current,none,3,postprandial,dyspepsia,none,3,superficial,14.2,negative,Stage 2,medical,no,healed,19-Nov-21
+P0262,52,F,28.2,negative,previous,NSAIDs,6,never,moderate,5,fasting,dyspepsia,none,13,superficial,12.6,positive,Stage 2,surgical,no,healed,13-Dec-23
+P0263,63,M,30.1,positive,recurrent,aspirin,9,former,heavy,7,nocturnal,nausea_vomiting,melena,21,erosion,9.3,positive,Stage 2,medical,yes,persistent,22-Mar-21
+P0264,75,F,28.7,positive,previous,NSAIDs,12,current,none,9,mixed,alarm_symptoms,hematemesis,36,superficial,7.8,positive,Stage 2,medical,yes,healed,20-Apr-22
+P0265,31,M,23.1,negative,none,none,0,never,moderate,2,postprandial,dyspepsia,none,3,superficial,13.9,negative,Stage 2,endoscopic,no,healed,4-Oct-22
+P0266,49,F,27.6,positive,previous,NSAIDs,5,former,moderate,5,fasting,dyspepsia,none,12,superficial,12.5,positive,Stage 2,medical,no,healed,10-Feb-24
+P0267,66,M,29.8,positive,none,aspirin,10,current,heavy,8,nocturnal,nausea_vomiting,hematemesis,24,erosion,9.1,positive,Stage 2,medical,yes,persistent,30-Oct-19
+P0268,71,F,28.9,negative,recurrent,NSAIDs,12,never,none,9,mixed,alarm_symptoms,hematemesis,35,superficial,7.9,positive,Stage 2,surgical,yes,healed,27-Apr-17
+P0269,34,M,24.3,positive,previous,none,0,former,none,3,postprandial,dyspepsia,none,4,superficial,13.8,negative,Stage 2,medical,no,healed,5-Feb-23
+P0270,56,F,29.3,negative,none,NSAIDs,7,current,moderate,6,fasting,dyspepsia,none,13,superficial,12.7,positive,Stage 2,endoscopic,no,persistent,1-Aug-21
+P0271,44,M,26.6,positive,previous,none,0,never,none,3,postprandial,dyspepsia,none,3,erosion,14.1,negative,Stage 2,medical,no,healed,5-Dec-15
+P0272,70,F,31.3,positive,recurrent,aspirin,10,former,heavy,8,nocturnal,nausea_vomiting,melena,22,deep,10.2,positive,Stage 2,medical,yes,healed,5-May-21
+P0273,37,M,24.4,negative,none,none,0,current,none,3,postprandial,dyspepsia,none,3,deep,14.3,negative,Stage 2,medical,no,healed,30-Apr-23
+P0274,53,F,28,positive,previous,NSAIDs,6,never,moderate,5,fasting,dyspepsia,none,13,deep,12.6,positive,Stage 2,surgical,no,persistent,12-Apr-16
+P0275,64,M,30.2,positive,recurrent,aspirin,9,former,heavy,7,nocturnal,nausea_vomiting,melena,20,deep,9.2,positive,Stage 2,medical,yes,healed,23-Dec-22
+P0276,74,F,28.6,negative,previous,NSAIDs,12,current,none,9,mixed,alarm_symptoms,hematemesis,36,deep,7.7,positive,Stage 2,endoscopic,yes,healed,23-Jun-21
+P0277,30,M,23.2,positive,none,none,0,never,moderate,2,postprandial,dyspepsia,none,3,deep,14,negative,Stage 2,medical,no,persistent,16-Oct-23
+P0278,47,F,27.5,negative,previous,NSAIDs,5,former,moderate,5,fasting,dyspepsia,none,11,deep,12.6,positive,Stage 2,medical,no,healed,22-Dec-15
+P0279,65,M,29.9,positive,none,aspirin,10,current,heavy,8,nocturnal,nausea_vomiting,hematemesis,23,deep,9.1,positive,Stage 2,surgical,yes,healed,15-Feb-21
+P0280,70,F,28.8,positive,recurrent,NSAIDs,12,never,none,9,mixed,alarm_symptoms,hematemesis,34,deep,8,positive,Stage 2,medical,yes,healed,26-Oct-15
+P0281,33,M,24.3,negative,previous,none,0,former,none,3,postprandial,dyspepsia,none,4,deep,13.9,negative,Stage 2,medical,no,persistent,24-Jul-23
+P0282,54,F,28.5,positive,none,NSAIDs,6,current,moderate,6,fasting,dyspepsia,none,14,deep,12.7,positive,Stage 2,endoscopic,no,healed,3-Jan-17
+P0283,38,M,25.1,positive,previous,none,0,never,none,3,postprandial,dyspepsia,none,3,deep,14.1,negative,Stage 2,medical,no,healed,20-Jul-22
+P0284,61,F,30,negative,recurrent,aspirin,9,former,heavy,7,nocturnal,nausea_vomiting,melena,21,deep,9,positive,Stage 2,medical,yes,persistent,27-Nov-25
+P0285,30,M,23.5,positive,none,none,0,current,moderate,2,fasting,dyspepsia,none,4,deep,13.8,negative,Stage 2,surgical,no,healed,19-Jun-16
+P0286,46,F,27.4,positive,previous,NSAIDs,5,never,moderate,5,postprandial,dyspepsia,none,12,deep,12.8,positive,Stage 2,medical,no,healed,5-Mar-19
+P0287,66,M,29.7,negative,recurrent,aspirin,10,former,heavy,8,nocturnal,nausea_vomiting,hematemesis,24,deep,9.2,positive,Stage 2,endoscopic,yes,healed,4-Nov-15
+P0288,71,F,28.8,positive,previous,NSAIDs,12,current,none,9,mixed,alarm_symptoms,hematemesis,35,deep,7.9,positive,Stage 2,medical,yes,persistent,16-May-20
+P0289,32,M,24,positive,none,none,0,never,moderate,3,postprandial,dyspepsia,none,4,deep,13.6,negative,Stage 2,medical,no,healed,30-Dec-23
+P0290,55,F,29.1,negative,previous,NSAIDs,7,former,moderate,6,fasting,dyspepsia,none,13,deep,12.5,positive,Stage 2,medical,no,healed,16-Jun-21
+P0291,43,M,26.5,positive,none,none,0,current,none,3,postprandial,dyspepsia,none,3,deep,14.2,negative,Stage 2,surgical,no,persistent,25-Apr-21
+P0292,69,F,31.2,negative,recurrent,aspirin,10,never,heavy,8,nocturnal,nausea_vomiting,melena,22,deep,10.3,positive,Stage 2,medical,yes,healed,5-Jun-15
+P0293,36,M,24.5,positive,previous,none,0,former,none,3,postprandial,dyspepsia,none,3,deep,14.3,negative,Stage 2,medical,no,healed,30-Jul-16
+P0294,51,F,28.1,positive,none,NSAIDs,6,current,moderate,5,fasting,dyspepsia,none,13,erosion,12.5,positive,Stage 2,endoscopic,no,healed,4-Nov-15
+P0295,62,M,30.2,negative,previous,aspirin,9,never,heavy,7,nocturnal,nausea_vomiting,melena,20,erosion,9.2,positive,Stage 2,medical,yes,persistent,5-Jun-24
+P0296,74,F,28.6,positive,recurrent,NSAIDs,12,former,none,9,mixed,alarm_symptoms,hematemesis,36,erosion,7.7,positive,Stage 2,surgical,yes,healed,11-Sep-19
+P0297,29,M,23,positive,none,none,0,current,moderate,2,postprandial,dyspepsia,none,3,erosion,14,negative,Stage 2,medical,no,healed,30-Oct-25
+P0298,48,F,27.5,negative,previous,NSAIDs,5,never,moderate,5,fasting,dyspepsia,none,11,superficial,12.6,positive,Stage 2,medical,no,persistent,28-Apr-20
+P0299,65,M,29.9,positive,recurrent,aspirin,10,former,heavy,8,nocturnal,nausea_vomiting,hematemesis,23,erosion,9.1,positive,Stage 2,endoscopic,yes,healed,7-Apr-17
+P0300,70,F,28.8,positive,previous,NSAIDs,12,current,none,9,mixed,alarm_symptoms,hematemesis,34,superficial,8,positive,Stage 3,medical,yes,healed,5-Jan-18
+P0301,33,M,24.3,negative,none,none,0,never,none,3,postprandial,dyspepsia,none,4,superficial,13.9,negative,Stage 3,medical,no,healed,24-Mar-15
+P0302,54,F,28.5,positive,previous,NSAIDs,6,former,moderate,6,fasting,dyspepsia,none,14,superficial,12.7,positive,Stage 3,medical,no,persistent,13-Oct-21
+P0303,38,M,25.1,negative,none,none,0,current,none,3,postprandial,dyspepsia,none,3,very deep,14.1,negative,Stage 3,surgical,no,healed,10-Nov-24
+P0304,61,F,30,positive,recurrent,aspirin,9,never,heavy,7,nocturnal,nausea_vomiting,melena,21,superficial,9,positive,Stage 3,medical,yes,healed,29-Apr-15
+P0305,30,M,23.5,positive,previous,none,0,former,moderate,2,fasting,dyspepsia,none,4,superficial,13.8,negative,Stage 3,endoscopic,no,persistent,28-Sep-21
+P0306,46,F,27.4,negative,none,NSAIDs,5,current,moderate,5,postprandial,dyspepsia,none,12,superficial,12.8,positive,Stage 3,medical,no,healed,29-Oct-17
+P0307,66,M,29.7,positive,previous,aspirin,10,never,heavy,8,nocturnal,nausea_vomiting,hematemesis,24,very deep,9.2,positive,Stage 3,medical,yes,healed,29-Aug-24
+P0308,71,F,28.8,positive,recurrent,NSAIDs,12,former,none,9,mixed,alarm_symptoms,hematemesis,35,deep,7.9,positive,Stage 3,surgical,yes,healed,2-Mar-25
+P0309,32,M,24,negative,none,none,0,current,moderate,3,postprandial,dyspepsia,none,4,deep,13.6,negative,Stage 3,medical,no,persistent,23-Sep-24
+P0310,55,F,29.1,positive,previous,NSAIDs,7,never,moderate,6,fasting,dyspepsia,none,13,deep,12.5,positive,Stage 3,medical,no,healed,27-Feb-15
+P0311,40,M,25.3,negative,recurrent,none,0,former,none,3,postprandial,dyspepsia,none,3,deep,14.1,negative,Stage 3,endoscopic,no,healed,1-Nov-20
+P0312,53,F,28.2,positive,previous,NSAIDs,6,current,moderate,5,fasting,dyspepsia,none,13,deep,12.6,positive,Stage 3,medical,no,persistent,21-Dec-23
+P0313,64,M,30.1,positive,none,aspirin,9,never,heavy,7,nocturnal,nausea_vomiting,melena,21,deep,9.3,positive,Stage 3,medical,yes,healed,8-Jul-15
+P0314,76,F,28.7,positive,previous,NSAIDs,12,former,none,9,mixed,alarm_symptoms,hematemesis,36,deep,7.8,positive,Stage 3,medical,yes,healed,24-Feb-23
+P0315,31,M,23.1,negative,none,none,0,current,moderate,2,postprandial,dyspepsia,none,3,deep,13.9,negative,Stage 3,surgical,no,healed,15-Oct-17
+P0316,50,F,27.7,positive,recurrent,NSAIDs,5,never,moderate,5,fasting,dyspepsia,none,12,deep,12.5,positive,Stage 3,medical,no,persistent,6-Jul-20
+P0317,67,M,30,negative,previous,aspirin,10,former,heavy,8,nocturnal,nausea_vomiting,hematemesis,24,deep,9.1,positive,Stage 3,endoscopic,yes,healed,1-Jun-18
+P0318,72,F,28.9,positive,none,NSAIDs,12,current,none,9,mixed,alarm_symptoms,hematemesis,35,deep,7.9,positive,Stage 3,medical,yes,healed,9-Jan-15
+P0319,35,M,24.3,positive,previous,none,0,never,none,3,postprandial,dyspepsia,none,4,deep,13.8,negative,Stage 3,medical,no,persistent,17-Mar-16
+P0320,57,F,29.3,negative,recurrent,NSAIDs,7,former,moderate,6,fasting,dyspepsia,none,13,deep,12.7,positive,Stage 3,surgical,no,healed,22-Oct-25
+P0321,45,M,26.6,positive,none,none,0,current,none,3,postprandial,dyspepsia,none,3,deep,14.1,negative,Stage 3,medical,no,healed,12-Sep-15
+P0322,71,F,31.3,positive,previous,aspirin,10,never,heavy,8,nocturnal,nausea_vomiting,melena,22,deep,10.2,positive,Stage 3,medical,yes,healed,13-Apr-22
+P0323,37,M,24.4,negative,recurrent,none,0,former,none,3,postprandial,dyspepsia,none,3,deep,14.3,negative,Stage 3,endoscopic,no,persistent,13-May-17
+P0324,54,F,28,positive,previous,NSAIDs,6,current,moderate,5,fasting,dyspepsia,none,13,deep,12.6,positive,Stage 3,medical,no,healed,6-Jul-24
+P0325,65,M,30.2,negative,none,aspirin,9,never,heavy,7,nocturnal,nausea_vomiting,melena,20,deep,9.2,positive,Stage 3,medical,yes,healed,5-May-21
+P0326,75,F,28.6,positive,previous,NSAIDs,12,former,none,9,mixed,alarm_symptoms,hematemesis,36,deep,7.7,positive,Stage 3,medical,yes,persistent,21-Nov-23
+P0327,30,M,23.2,positive,none,none,0,current,moderate,2,postprandial,dyspepsia,none,3,deep,14,negative,Stage 3,surgical,no,healed,13-Mar-25
+P0328,48,F,27.5,negative,recurrent,NSAIDs,5,never,moderate,5,fasting,dyspepsia,none,11,deep,12.6,positive,Stage 3,medical,no,healed,5-Feb-16
+P0329,66,M,29.9,positive,previous,aspirin,10,former,heavy,8,nocturnal,nausea_vomiting,hematemesis,23,deep,9.1,positive,Stage 3,endoscopic,yes,healed,23-Jan-19
+P0330,71,F,28.8,positive,none,NSAIDs,12,current,none,9,mixed,alarm_symptoms,hematemesis,34,deep,8,positive,Stage 3,medical,yes,persistent,4-Sep-22
+P0331,33,M,24.3,negative,previous,none,0,never,none,3,postprandial,dyspepsia,none,4,deep,13.9,negative,Stage 3,medical,no,healed,7-Mar-17
+P0332,55,F,28.5,positive,recurrent,NSAIDs,6,former,moderate,6,fasting,dyspepsia,none,14,deep,12.7,positive,Stage 3,surgical,no,healed,5-Dec-17
+P0333,38,M,25.1,negative,none,none,0,current,none,3,postprandial,dyspepsia,none,3,deep,14.1,negative,Stage 3,medical,no,persistent,19-Sep-25
+P0334,61,F,30,positive,previous,aspirin,9,never,heavy,7,nocturnal,nausea_vomiting,melena,21,deep,9,positive,Stage 3,medical,yes,healed,31-May-23
+P0335,30,M,23.5,positive,recurrent,none,0,former,moderate,2,fasting,dyspepsia,none,4,deep,13.8,negative,Stage 3,endoscopic,no,healed,30-Jan-23
+P0336,46,F,27.4,negative,previous,NSAIDs,5,current,moderate,5,postprandial,dyspepsia,none,12,deep,12.8,positive,Stage 3,medical,no,healed,30-Jul-24
+P0337,66,M,29.7,positive,none,aspirin,10,never,heavy,8,nocturnal,nausea_vomiting,hematemesis,24,deep,9.2,positive,Stage 3,medical,yes,persistent,20-Jan-18
+P0338,71,F,28.8,positive,previous,NSAIDs,12,former,none,9,mixed,alarm_symptoms,hematemesis,35,deep,7.9,positive,Stage 3,medical,yes,healed,25-Dec-21
+P0339,32,M,24,negative,none,none,0,current,moderate,3,postprandial,dyspepsia,none,4,deep,13.6,negative,Stage 3,surgical,no,healed,7-Jan-18
+P0340,55,F,29.1,positive,recurrent,NSAIDs,7,never,moderate,6,fasting,dyspepsia,none,13,deep,12.5,positive,Stage 3,medical,no,persistent,27-May-16
+P0341,43,M,26.5,negative,previous,none,0,former,none,3,postprandial,dyspepsia,none,3,deep,14.2,negative,Stage 3,endoscopic,no,healed,20-Dec-19
+P0342,69,F,31.2,positive,none,aspirin,10,current,heavy,8,nocturnal,nausea_vomiting,melena,22,deep,10.3,positive,Stage 3,medical,yes,healed,15-May-16
+P0343,36,M,24.5,positive,previous,none,0,never,none,3,postprandial,dyspepsia,none,3,deep,14.3,negative,Stage 3,medical,no,healed,4-Feb-18
+P0344,51,F,28.1,positive,recurrent,NSAIDs,6,former,moderate,5,fasting,dyspepsia,none,13,deep,12.5,positive,Stage 3,surgical,no,persistent,18-Oct-18
+P0345,62,M,30.2,negative,none,aspirin,9,current,heavy,7,nocturnal,nausea_vomiting,melena,20,deep,9.2,positive,Stage 3,medical,yes,healed,1-Feb-18
+P0346,74,F,28.6,positive,previous,NSAIDs,12,never,none,9,mixed,alarm_symptoms,hematemesis,36,deep,7.7,positive,Stage 3,medical,yes,healed,14-Mar-16
+P0347,29,M,23,negative,recurrent,none,0,former,moderate,2,postprandial,dyspepsia,none,3,deep,14,negative,Stage 3,endoscopic,no,persistent,9-Feb-19
+P0348,48,F,27.5,positive,previous,NSAIDs,5,current,moderate,5,fasting,dyspepsia,none,11,deep,12.6,positive,Stage 3,medical,no,healed,16-Oct-15
+P0349,65,M,29.9,positive,none,aspirin,10,never,heavy,8,nocturnal,nausea_vomiting,hematemesis,23,deep,9.1,positive,Stage 3,medical,yes,healed,9-Oct-25
+P0350,70,F,28.8,negative,previous,NSAIDs,12,former,none,9,mixed,alarm_symptoms,hematemesis,34,deep,8,positive,Stage 3,medical,yes,healed,15-Feb-17
+P0351,33,M,24.3,positive,none,none,0,current,none,3,postprandial,dyspepsia,none,4,deep,13.9,negative,Stage 3,surgical,no,persistent,1-Jan-15
+P0352,54,F,28.5,positive,recurrent,NSAIDs,6,never,moderate,6,fasting,dyspepsia,none,14,deep,12.7,positive,Stage 3,medical,no,healed,22-Aug-23
+P0353,38,M,25.1,negative,previous,none,0,former,none,3,postprandial,dyspepsia,none,3,deep,14.1,negative,Stage 3,endoscopic,no,healed,24-Mar-18
+P0354,61,F,30,positive,none,aspirin,9,current,heavy,7,nocturnal,nausea_vomiting,melena,21,deep,9,positive,Stage 3,medical,yes,persistent,7-Nov-23
+P0355,30,M,23.5,negative,previous,none,0,never,moderate,2,fasting,dyspepsia,none,4,deep,13.8,negative,Stage 3,medical,no,healed,19-Feb-25
+P0356,46,F,27.4,positive,recurrent,NSAIDs,5,former,moderate,5,postprandial,dyspepsia,none,12,deep,12.8,positive,Stage 3,surgical,no,healed,18-Jun-25
+P0357,66,M,29.7,positive,none,aspirin,10,current,heavy,8,nocturnal,nausea_vomiting,hematemesis,24,deep,9.2,positive,Stage 3,medical,yes,healed,12-Aug-19
+P0358,71,F,28.8,negative,previous,NSAIDs,12,never,none,9,mixed,alarm_symptoms,hematemesis,35,deep,7.9,positive,Stage 3,medical,yes,persistent,29-Jun-20
+P0359,32,M,24,positive,recurrent,none,0,former,moderate,3,postprandial,dyspepsia,none,4,deep,13.6,negative,Stage 3,endoscopic,no,healed,28-Jan-23
+P0360,55,F,29.1,positive,previous,NSAIDs,7,current,moderate,6,fasting,dyspepsia,none,13,deep,12.5,positive,Stage 3,medical,no,healed,7-Oct-25
+P0361,43,M,26.5,negative,none,none,0,never,none,3,postprandial,dyspepsia,none,3,deep,14.2,negative,Stage 3,medical,no,persistent,23-Aug-19
+P0362,69,F,31.2,positive,previous,aspirin,10,former,heavy,8,nocturnal,nausea_vomiting,melena,22,deep,10.3,positive,Stage 3,medical,yes,healed,8-Sep-22
+P0363,36,M,24.5,negative,none,none,0,current,none,3,postprandial,dyspepsia,none,3,deep,14.3,negative,Stage 3,surgical,no,healed,25-Oct-18
+P0364,51,F,28.1,positive,recurrent,NSAIDs,6,never,moderate,5,fasting,dyspepsia,none,13,deep,12.5,positive,Stage 3,medical,no,healed,19-Jan-24
+P0365,62,M,30.2,positive,recurrent,aspirin,9,former,heavy,7,nocturnal,nausea_vomiting,melena,20,deep,9.2,positive,Stage 3,endoscopic,yes,persistent,20-Apr-24
+P0366,74,F,28.6,negative,previous,NSAIDs,12,current,none,9,mixed,alarm_symptoms,hematemesis,36,deep,7.7,positive,Stage 3,medical,yes,healed,20-Oct-21
+P0367,29,M,23,positive,none,none,0,never,moderate,2,postprandial,dyspepsia,none,3,deep,14,negative,Stage 3,medical,no,healed,21-Dec-19
+P0368,48,F,27.5,positive,recurrent,NSAIDs,5,former,moderate,5,fasting,dyspepsia,none,11,deep,12.6,positive,Stage 3,surgical,no,persistent,25-Apr-22
+P0369,65,M,29.9,negative,previous,aspirin,10,current,heavy,8,nocturnal,nausea_vomiting,hematemesis,23,deep,9.1,positive,Stage 3,medical,yes,healed,5-Nov-16
+P0370,70,F,28.8,positive,none,NSAIDs,12,never,none,9,mixed,alarm_symptoms,hematemesis,34,deep,8,positive,Stage 3,medical,yes,healed,29-Jun-25
+P0371,33,M,24.3,negative,previous,none,0,former,none,3,postprandial,dyspepsia,none,4,deep,13.9,negative,Stage 3,endoscopic,no,healed,25-Oct-15
+P0372,54,F,28.5,positive,recurrent,NSAIDs,6,current,moderate,6,fasting,dyspepsia,none,14,deep,12.7,positive,Stage 3,medical,no,persistent,25-Apr-21
+P0373,38,M,25.1,positive,none,none,0,never,none,3,postprandial,dyspepsia,none,3,deep,14.1,negative,Stage 3,medical,no,healed,14-Mar-16
+P0374,61,F,30,negative,previous,aspirin,9,former,heavy,7,nocturnal,nausea_vomiting,melena,21,deep,9,positive,Stage 3,medical,yes,healed,23-Oct-16
+P0375,30,M,23.5,positive,none,none,0,current,moderate,2,fasting,dyspepsia,none,4,deep,13.8,negative,Stage 3,surgical,no,persistent,17-Sep-20
+P0376,46,F,27.4,positive,recurrent,NSAIDs,5,never,moderate,5,postprandial,dyspepsia,none,12,deep,12.8,positive,Stage 3,medical,no,healed,18-Mar-17
+P0377,66,M,29.7,negative,previous,aspirin,10,former,heavy,8,nocturnal,nausea_vomiting,hematemesis,24,deep,9.2,positive,Stage 3,endoscopic,yes,healed,7-Jul-19
+P0378,71,F,28.8,positive,none,NSAIDs,12,current,none,9,mixed,alarm_symptoms,hematemesis,35,superficial,7.9,positive,Stage 3,medical,yes,healed,15-May-19
+P0379,32,M,24,negative,previous,none,0,never,moderate,3,postprandial,dyspepsia,none,4,very deep,13.6,negative,Stage 3,medical,no,persistent,21-Nov-19
+P0380,55,F,29.1,positive,recurrent,NSAIDs,7,former,moderate,6,fasting,dyspepsia,none,13,deep,12.5,positive,Stage 3,surgical,no,healed,22-Apr-15
+P0381,43,M,26.5,positive,previous,none,0,current,none,3,postprandial,dyspepsia,none,3,superficial,14.2,negative,Stage 3,medical,no,healed,19-Mar-20
+P0382,69,F,31.2,negative,none,aspirin,10,never,heavy,8,nocturnal,nausea_vomiting,melena,22,deep,10.3,positive,Stage 3,medical,yes,persistent,22-May-23
+P0383,36,M,24.5,positive,previous,none,0,former,none,3,postprandial,dyspepsia,none,3,very deep,14.3,negative,Stage 3,endoscopic,no,healed,29-Sep-25
+P0384,51,F,28.1,positive,none,NSAIDs,6,current,moderate,5,fasting,dyspepsia,none,13,superficial,12.5,positive,Stage 3,medical,no,healed,3-Jul-23
+P0385,62,M,30.2,negative,recurrent,aspirin,9,never,heavy,7,nocturnal,nausea_vomiting,melena,20,deep,9.2,positive,Stage 3,medical,yes,healed,6-Apr-20
+P0386,74,F,28.6,positive,previous,NSAIDs,12,former,none,9,mixed,alarm_symptoms,hematemesis,36,deep,7.7,positive,Stage 3,medical,yes,persistent,11-Aug-20
+P0387,29,M,23,negative,none,none,0,current,moderate,2,postprandial,dyspepsia,none,3,very deep,14,negative,Stage 3,surgical,no,healed,1-Oct-24
+P0388,48,F,27.5,positive,previous,NSAIDs,5,never,moderate,5,fasting,dyspepsia,none,11,superficial,12.6,positive,Stage 3,medical,no,healed,3-Nov-15
+P0389,65,M,29.9,positive,recurrent,aspirin,10,former,heavy,8,nocturnal,nausea_vomiting,hematemesis,23,very deep,9.1,positive,Stage 3,endoscopic,yes,persistent,15-Feb-20
+P0390,70,F,28.8,negative,none,NSAIDs,12,current,none,9,mixed,alarm_symptoms,hematemesis,34,deep,8,positive,Stage 3,medical,yes,healed,1-Dec-25
+P0391,33,M,24.3,positive,previous,none,0,never,none,3,postprandial,dyspepsia,none,4,superficial,13.9,negative,Stage 3,medical,no,healed,20-Feb-22
+P0392,54,F,28.5,positive,recurrent,NSAIDs,6,former,moderate,6,fasting,dyspepsia,none,14,deep,12.7,positive,Stage 3,surgical,no,persistent,17-Jan-22
+P0393,38,M,25.1,negative,previous,none,0,current,none,3,postprandial,dyspepsia,none,3,very deep,14.1,negative,Stage 3,medical,no,healed,1-Apr-22
+P0394,61,F,30,positive,none,aspirin,9,never,heavy,7,nocturnal,nausea_vomiting,melena,21,superficial,9,positive,Stage 3,medical,yes,healed,7-Feb-19
+P0395,30,M,23.5,negative,previous,none,0,former,moderate,2,fasting,dyspepsia,none,4,deep,13.8,negative,Stage 3,endoscopic,no,persistent,19-Mar-16
+P0396,46,F,27.4,positive,none,NSAIDs,5,current,moderate,5,postprandial,dyspepsia,none,12,deep,12.8,positive,Stage 3,medical,no,healed,31-May-16
+P0397,66,M,29.7,positive,recurrent,aspirin,10,former,heavy,8,nocturnal,nausea_vomiting,hematemesis,24,very deep,9.2,positive,Stage 3,medical,yes,healed,3-Sep-15
+P0398,71,F,28.8,negative,previous,NSAIDs,12,never,none,9,mixed,alarm_symptoms,hematemesis,35,superficial,7.9,positive,Stage 3,medical,yes,persistent,9-Sep-20
+P0399,32,M,24,positive,none,none,0,current,moderate,3,postprandial,dyspepsia,none,4,very deep,13.6,negative,Stage 3,surgical,no,healed,3-Oct-19
+P0400,55,F,29.1,positive,previous,NSAIDs,7,former,moderate,6,fasting,dyspepsia,none,13,deep,12.5,positive,Stage 3,medical,no,healed,22-Oct-21
+P0401,34,M,24.2,negative,recurrent,none,0,never,none,3,postprandial,dyspepsia,none,3,superficial,14,negative,Stage 3,endoscopic,no,persistent,23-Mar-19
+P0402,52,F,28.3,positive,previous,NSAIDs,6,current,moderate,5,fasting,dyspepsia,none,13,deep,12.6,positive,Stage 3,medical,no,healed,1-Feb-23
+P0403,63,M,30,negative,none,aspirin,9,former,heavy,7,nocturnal,nausea_vomiting,melena,21,very deep,9.2,positive,Stage 3,medical,yes,healed,19-Apr-20
+P0404,77,F,28.7,positive,previous,NSAIDs,12,never,none,9,mixed,alarm_symptoms,hematemesis,36,superficial,7.7,positive,Stage 3,surgical,yes,persistent,5-Sep-22
+P0405,31,M,23.1,positive,recurrent,none,0,current,moderate,2,postprandial,dyspepsia,none,3,deep,14.1,negative,Stage 3,medical,no,healed,18-Mar-20
+P0406,49,F,27.6,negative,none,NSAIDs,5,former,moderate,5,fasting,dyspepsia,none,12,deep,12.7,positive,Stage 3,medical,no,healed,25-Nov-19
+P0407,68,M,30.1,positive,previous,aspirin,10,never,heavy,8,nocturnal,nausea_vomiting,melena,24,very deep,9.1,positive,Stage 3,endoscopic,yes,persistent,8-Aug-18
+P0408,73,F,28.9,positive,none,NSAIDs,12,current,none,9,mixed,alarm_symptoms,hematemesis,35,superficial,7.8,positive,Stage 3,medical,yes,healed,6-Jan-20
+P0409,36,M,24.3,negative,recurrent,none,0,former,none,3,postprandial,dyspepsia,none,4,deep,13.9,negative,Stage 3,medical,no,healed,1-Nov-25
+P0410,56,F,29.2,positive,previous,NSAIDs,7,never,moderate,6,fasting,dyspepsia,none,13,very deep,12.8,positive,Stage 3,medical,no,persistent,20-Dec-24
+P0411,44,M,26.4,negative,none,none,0,current,none,3,postprandial,dyspepsia,none,3,deep,14,negative,Stage 3,surgical,no,healed,30-Sep-17
+P0412,70,F,31.1,positive,previous,aspirin,10,never,heavy,8,nocturnal,nausea_vomiting,melena,22,superficial,10.2,positive,Stage 3,medical,yes,healed,11-Apr-20
+P0413,37,M,24.4,positive,recurrent,none,0,former,none,3,postprandial,dyspepsia,none,3,very deep,14.2,negative,Stage 3,endoscopic,no,persistent,20-Oct-18
+P0414,55,F,28.4,negative,none,NSAIDs,6,current,moderate,5,fasting,dyspepsia,none,13,deep,12.7,positive,Stage 3,medical,no,healed,8-Dec-23
+P0415,66,M,30.2,positive,previous,aspirin,9,never,heavy,7,nocturnal,nausea_vomiting,melena,21,superficial,9.3,positive,Stage 3,medical,yes,healed,15-Sep-23
+P0416,75,F,28.6,positive,recurrent,NSAIDs,12,former,none,9,mixed,alarm_symptoms,hematemesis,36,very deep,7.7,positive,Stage 3,surgical,yes,healed,26-Mar-16
+P0417,30,M,23,negative,previous,none,0,current,moderate,2,postprandial,dyspepsia,none,3,deep,14,negative,Stage 3,medical,no,persistent,26-Feb-20
+P0418,47,F,27.5,positive,none,NSAIDs,5,never,moderate,5,fasting,dyspepsia,none,11,very deep,12.6,positive,Stage 3,medical,no,healed,25-Aug-23
+P0419,65,M,29.9,negative,previous,aspirin,10,former,heavy,8,nocturnal,nausea_vomiting,hematemesis,23,superficial,9.1,positive,Stage 3,endoscopic,yes,persistent,16-Jul-16
+P0420,71,F,28.8,positive,none,NSAIDs,12,current,none,9,mixed,alarm_symptoms,hematemesis,34,deep,8,positive,Stage 3,medical,yes,healed,22-Jan-18
+P0421,33,M,24.3,positive,recurrent,none,0,never,none,3,postprandial,dyspepsia,none,4,deep,13.9,negative,Stage 4,medical,no,healed,22-Nov-20
+P0422,54,F,28.5,negative,previous,NSAIDs,6,former,moderate,6,fasting,dyspepsia,none,14,very deep,12.7,positive,Stage 4,medical,no,healed,4-Nov-16
+P0423,38,M,25.1,positive,none,none,0,current,none,3,postprandial,dyspepsia,none,3,very deep,14.1,negative,Stage 4,surgical,no,persistent,16-Jun-18
+P0424,61,F,30,positive,previous,aspirin,9,never,heavy,7,nocturnal,nausea_vomiting,melena,21,very deep,9,positive,Stage 4,medical,yes,healed,6-Jul-25
+P0425,30,M,23.5,negative,recurrent,none,0,former,moderate,2,fasting,dyspepsia,none,4,deep,13.8,negative,Stage 4,endoscopic,no,healed,23-Apr-20
+P0426,46,F,27.4,positive,none,NSAIDs,5,current,moderate,5,postprandial,dyspepsia,none,12,very deep,12.8,positive,Stage 4,medical,no,persistent,14-Jan-24
+P0427,66,M,29.7,negative,previous,aspirin,10,never,heavy,8,nocturnal,nausea_vomiting,hematemesis,24,very deep,9.2,positive,Stage 4,medical,yes,healed,13-Sep-18
+P0428,71,F,28.8,positive,recurrent,NSAIDs,12,former,none,9,mixed,alarm_symptoms,hematemesis,35,deep,7.9,positive,Stage 4,surgical,yes,healed,7-Aug-25
+P0429,32,M,24,positive,previous,none,0,current,moderate,3,postprandial,dyspepsia,none,4,deep,13.6,negative,Stage 4,medical,no,healed,12-Aug-19
+P0430,55,F,29.1,negative,none,NSAIDs,7,never,moderate,6,fasting,dyspepsia,none,13,very deep,12.5,positive,Stage 4,medical,no,persistent,13-Aug-20
+P0431,43,M,26.5,positive,previous,none,0,former,none,3,postprandial,dyspepsia,none,3,very deep,14.2,negative,Stage 4,endoscopic,no,healed,27-Dec-19
+P0432,69,F,31.2,positive,none,aspirin,10,current,heavy,8,nocturnal,nausea_vomiting,melena,22,deep,10.3,positive,Stage 4,medical,yes,persistent,30-Jul-19
+P0433,36,M,24.5,negative,recurrent,none,0,never,none,3,postprandial,dyspepsia,none,3,very deep,14.3,negative,Stage 4,medical,no,healed,20-Dec-18
+P0434,51,F,28.1,positive,previous,NSAIDs,6,former,moderate,5,fasting,dyspepsia,none,13,very deep,12.5,positive,Stage 4,medical,no,healed,3-Aug-25
+P0435,62,M,30.2,negative,none,aspirin,9,current,heavy,7,nocturnal,nausea_vomiting,melena,20,deep,9.2,positive,Stage 4,surgical,yes,persistent,30-Nov-21
+P0436,74,F,28.6,positive,previous,NSAIDs,12,never,none,9,mixed,alarm_symptoms,hematemesis,36,very deep,7.7,positive,Stage 4,medical,yes,healed,12-Feb-21
+P0437,29,M,23,positive,recurrent,none,0,former,moderate,2,postprandial,dyspepsia,none,3,very deep,14,negative,Stage 4,endoscopic,no,healed,6-Sep-20
+P0438,48,F,27.5,negative,none,NSAIDs,5,current,moderate,5,fasting,dyspepsia,none,11,deep,12.6,positive,Stage 4,medical,no,persistent,13-Nov-22
+P0439,65,M,29.9,positive,previous,aspirin,10,never,heavy,8,nocturnal,nausea_vomiting,hematemesis,23,deep,9.1,positive,Stage 4,medical,yes,healed,6-Dec-23
+P0440,70,F,28.8,positive,recurrent,NSAIDs,12,former,none,9,mixed,alarm_symptoms,hematemesis,34,very deep,8,positive,Stage 4,surgical,yes,healed,14-Oct-25
+P0441,33,M,24.3,negative,previous,none,0,current,none,3,postprandial,dyspepsia,none,4,very deep,13.9,negative,Stage 4,medical,no,healed,6-Nov-18
+P0442,54,F,28.5,positive,none,NSAIDs,6,never,moderate,6,fasting,dyspepsia,none,14,very deep,12.7,positive,Stage 4,medical,no,persistent,8-Nov-21
+P0443,38,M,25.1,negative,previous,none,0,former,none,3,postprandial,dyspepsia,none,3,deep,14.1,negative,Stage 4,endoscopic,no,healed,25-Feb-18
+P0444,61,F,30,positive,none,aspirin,9,current,heavy,7,nocturnal,nausea_vomiting,melena,21,very deep,9,positive,Stage 4,medical,yes,healed,6-Sep-25
+P0445,30,M,23.5,positive,recurrent,none,0,never,moderate,2,fasting,dyspepsia,none,4,deep,13.8,negative,Stage 4,medical,no,persistent,17-Jun-24
+P0446,46,F,27.4,negative,previous,NSAIDs,5,former,moderate,5,postprandial,dyspepsia,none,12,very deep,12.8,positive,Stage 4,medical,no,healed,17-Jan-16
+P0447,66,M,29.7,positive,none,aspirin,10,current,heavy,8,nocturnal,nausea_vomiting,hematemesis,24,very deep,9.2,positive,Stage 4,surgical,yes,healed,13-Oct-16
+P0448,71,F,28.8,positive,previous,NSAIDs,12,never,none,9,mixed,alarm_symptoms,hematemesis,35,deep,7.9,positive,Stage 4,medical,yes,healed,7-May-20
+P0449,32,M,24,negative,recurrent,none,0,former,moderate,3,postprandial,dyspepsia,none,4,deep,13.6,negative,Stage 4,endoscopic,no,persistent,26-Aug-24
+P0450,55,F,29.1,positive,none,NSAIDs,7,current,moderate,6,fasting,dyspepsia,none,13,very deep,12.5,positive,Stage 4,medical,no,healed,8-Feb-23
+P0451,42,M,26.3,negative,previous,none,0,never,none,3,postprandial,dyspepsia,none,3,very deep,14.1,negative,Stage 4,medical,no,healed,29-May-18
+P0452,68,F,31,positive,recurrent,aspirin,10,former,heavy,8,nocturnal,nausea_vomiting,melena,22,very deep,10.1,positive,Stage 4,surgical,yes,healed,5-Feb-25
+P0453,35,M,24.4,positive,previous,none,0,current,none,3,postprandial,dyspepsia,none,3,deep,14.2,negative,Stage 4,medical,no,persistent,15-Feb-23
+P0454,50,F,28.2,negative,none,NSAIDs,6,never,moderate,5,fasting,dyspepsia,none,13,very deep,12.6,positive,Stage 4,medical,no,healed,26-Apr-15
+P0455,63,M,30.1,positive,previous,aspirin,9,former,heavy,7,nocturnal,nausea_vomiting,melena,21,deep,9.2,positive,Stage 4,endoscopic,yes,persistent,1-Jul-20
+P0456,73,F,28.6,positive,none,NSAIDs,12,current,none,9,mixed,alarm_symptoms,hematemesis,36,very deep,7.8,positive,Stage 4,medical,yes,healed,12-Jul-16
+P0457,31,M,23,negative,recurrent,none,0,never,moderate,2,postprandial,dyspepsia,none,3,superficial,14,negative,Stage 4,medical,no,healed,11-Oct-22
+P0458,49,F,27.6,positive,previous,NSAIDs,5,former,moderate,5,fasting,dyspepsia,none,12,deep,12.7,positive,Stage 4,medical,no,persistent,17-Jan-19
+P0459,67,M,30,negative,none,aspirin,10,current,heavy,8,nocturnal,nausea_vomiting,hematemesis,24,deep,9.1,positive,Stage 4,surgical,yes,healed,28-Mar-24
+P0460,72,F,28.9,positive,previous,NSAIDs,12,never,none,9,mixed,alarm_symptoms,hematemesis,35,very deep,7.9,positive,Stage 4,medical,yes,healed,26-Jun-20
+P0461,34,M,24.3,negative,recurrent,none,0,former,none,3,postprandial,dyspepsia,none,4,superficial,13.8,negative,Stage 4,endoscopic,no,healed,5-Apr-22
+P0462,53,F,28.3,positive,none,NSAIDs,6,current,moderate,5,fasting,dyspepsia,none,13,very deep,12.7,positive,Stage 4,medical,no,persistent,8-Jun-16
+P0463,62,M,30.2,negative,previous,aspirin,9,never,heavy,7,nocturnal,nausea_vomiting,melena,20,deep,9.2,positive,Stage 4,medical,yes,healed,29-Jun-17
+P0464,74,F,28.6,positive,recurrent,NSAIDs,12,former,none,9,mixed,alarm_symptoms,hematemesis,36,superficial,7.7,positive,Stage 4,surgical,yes,healed,16-Oct-17
+P0465,29,M,23,positive,previous,none,0,current,moderate,2,postprandial,dyspepsia,none,3,deep,14,negative,Stage 4,medical,no,persistent,2-Jul-18
+P0466,48,F,27.5,negative,none,NSAIDs,5,never,moderate,5,fasting,dyspepsia,none,11,very deep,12.6,positive,Stage 4,medical,no,healed,25-Sep-15
+P0467,65,M,29.9,positive,previous,aspirin,10,former,heavy,8,nocturnal,nausea_vomiting,hematemesis,23,superficial,9.1,positive,Stage 4,medical,yes,healed,16-Dec-24
+P0468,70,F,28.8,positive,none,NSAIDs,12,current,none,9,mixed,alarm_symptoms,hematemesis,34,deep,8,positive,Stage 4,endoscopic,yes,healed,27-Apr-20
+P0469,33,M,24.3,negative,recurrent,none,0,never,none,3,postprandial,dyspepsia,none,4,deep,13.9,negative,Stage 4,medical,no,persistent,4-Aug-22
+P0470,54,F,28.5,positive,previous,NSAIDs,6,former,moderate,6,fasting,dyspepsia,none,14,very deep,12.7,positive,Stage 4,surgical,no,healed,26-Jun-16
+P0471,38,M,25.1,negative,none,none,0,current,none,3,postprandial,dyspepsia,none,3,superficial,14.1,negative,Stage 4,medical,no,healed,9-Aug-24
+P0472,61,F,30,positive,previous,aspirin,9,never,heavy,7,nocturnal,nausea_vomiting,melena,21,very deep,9,positive,Stage 4,endoscopic,yes,persistent,3-Aug-20
+P0473,30,M,23.5,positive,recurrent,none,0,former,moderate,2,fasting,dyspepsia,none,4,deep,13.8,negative,Stage 4,medical,no,healed,30-Dec-25
+P0474,46,F,27.4,negative,none,NSAIDs,5,current,moderate,5,postprandial,dyspepsia,none,12,superficial,12.8,positive,Stage 4,medical,no,healed,30-Jul-20
+P0475,66,M,29.7,positive,previous,aspirin,10,never,heavy,8,nocturnal,nausea_vomiting,hematemesis,24,deep,9.2,positive,Stage 4,surgical,yes,healed,5-Feb-20
+P0476,71,F,28.8,positive,recurrent,NSAIDs,12,former,none,9,mixed,alarm_symptoms,hematemesis,35,very deep,7.9,positive,Stage 4,medical,yes,persistent,21-Dec-23
+P0477,32,M,24,negative,previous,none,0,current,moderate,3,postprandial,dyspepsia,none,4,superficial,13.6,negative,Stage 4,medical,no,healed,21-Sep-25
+P0478,55,F,29.1,positive,none,NSAIDs,7,never,moderate,6,fasting,dyspepsia,none,13,deep,12.5,positive,Stage 4,endoscopic,no,healed,28-Jun-25
+P0479,43,M,26.5,negative,previous,none,0,former,none,3,postprandial,dyspepsia,none,3,deep,14.2,negative,Stage 4,medical,no,persistent,24-Jul-21
+P0480,69,F,31.2,positive,none,aspirin,10,current,heavy,8,nocturnal,nausea_vomiting,melena,22,very deep,10.3,positive,Stage 4,surgical,yes,healed,22-Feb-24
+P0481,36,M,24.5,positive,recurrent,none,0,never,none,3,postprandial,dyspepsia,none,3,superficial,14.3,negative,Stage 4,medical,no,healed,5-Apr-18
+P0482,51,F,28.1,negative,previous,NSAIDs,6,former,moderate,5,fasting,dyspepsia,none,13,very deep,12.5,positive,Stage 4,medical,no,healed,15-Nov-18
+P0483,62,M,30.2,positive,none,aspirin,9,current,heavy,7,nocturnal,nausea_vomiting,melena,20,deep,9.2,positive,Stage 4,medical,yes,persistent,5-Oct-20
+P0484,74,F,28.6,positive,previous,NSAIDs,12,never,none,9,mixed,alarm_symptoms,hematemesis,36,superficial,7.7,positive,Stage 4,endoscopic,yes,healed,27-Jun-24
+P0485,29,M,23,negative,recurrent,none,0,former,moderate,2,postprandial,dyspepsia,none,3,deep,14,negative,Stage 4,medical,no,healed,28-Jul-15
+P0486,48,F,27.5,positive,none,NSAIDs,5,current,moderate,5,fasting,dyspepsia,none,11,very deep,12.6,positive,Stage 4,surgical,no,persistent,10-Jun-23
+P0487,65,M,29.9,negative,previous,aspirin,10,never,heavy,8,nocturnal,nausea_vomiting,hematemesis,23,superficial,9.1,positive,Stage 4,medical,yes,healed,6-Feb-15
+P0488,70,F,28.8,positive,recurrent,NSAIDs,12,former,none,9,mixed,alarm_symptoms,hematemesis,34,deep,8,positive,Stage 4,medical,yes,healed,12-Apr-19
+P0489,33,M,24.3,positive,previous,none,0,current,none,3,postprandial,dyspepsia,none,4,deep,13.9,negative,Stage 4,endoscopic,no,healed,21-Mar-24
+P0490,54,F,28.5,negative,none,NSAIDs,6,never,moderate,6,fasting,dyspepsia,none,14,very deep,12.7,positive,Stage 4,medical,no,persistent,23-Apr-18
+P0491,38,M,25.1,positive,previous,none,0,former,none,3,postprandial,dyspepsia,none,3,superficial,14.1,negative,Stage 4,medical,no,healed,14-Aug-25
+P0492,61,F,30,positive,none,aspirin,9,current,heavy,7,nocturnal,nausea_vomiting,melena,21,very deep,9,positive,Stage 4,surgical,yes,healed,24-May-23
+P0493,30,M,23.5,negative,recurrent,none,0,never,moderate,2,fasting,dyspepsia,none,4,deep,13.8,negative,Stage 4,medical,no,persistent,7-Feb-16
+P0494,46,F,27.4,positive,previous,NSAIDs,5,former,moderate,5,postprandial,dyspepsia,none,12,superficial,12.8,positive,Stage 4,endoscopic,no,healed,16-Sep-16
+P0495,66,M,29.7,negative,none,aspirin,10,current,heavy,8,nocturnal,nausea_vomiting,hematemesis,24,deep,9.2,positive,Stage 4,medical,yes,healed,19-May-20
+P0496,71,F,28.8,positive,previous,NSAIDs,12,never,none,9,mixed,alarm_symptoms,hematemesis,35,very deep,7.9,positive,Stage 4,medical,yes,healed,28-Jul-16
+P0497,32,M,24,positive,recurrent,none,0,former,moderate,3,postprandial,dyspepsia,none,4,superficial,13.6,negative,Stage 4,medical,no,persistent,1-Oct-21
+P0498,55,F,29.1,negative,none,NSAIDs,7,current,moderate,6,fasting,dyspepsia,none,13,deep,12.5,positive,Stage 4,surgical,no,healed,1-Feb-20
+P0499,43,M,26.5,positive,previous,none,0,never,none,3,postprandial,dyspepsia,none,3,deep,14.2,negative,Stage 4,medical,no,healed,17-Jun-21
+P0500,69,F,31.2,positive,recurrent,aspirin,10,former,heavy,8,nocturnal,nausea_vomiting,melena,22,very deep,10.3,positive,Stage 4,endoscopic,yes,persistent,18-Aug-16

@@ -1,0 +1,100 @@
+Measures and Columns Formula
+
+
+Vs Avg Age = 
+-- Calculate current average age
+VAR _CurrentAvg =
+    AVERAGE('Ulcer Dataset'[age])
+
+-- Calculate overall reference average age
+VAR _OverallAvg =
+    CALCULATE(
+        AVERAGE('Ulcer Dataset'[age]),
+        ALL('Ulcer Dataset')
+    )
+
+-- Difference between current and overall
+VAR _Diff = _CurrentAvg - _OverallAvg
+
+-- Return arrow + formatted value
+RETURN
+SWITCH(
+    TRUE(),
+    _Diff > 0, UNICHAR(9650) & " " & FORMAT(_CurrentAvg, "0.0"),
+    _Diff < 0, UNICHAR(9660) & " " & FORMAT(_CurrentAvg, "0.0"),
+    FORMAT(_CurrentAvg, "0.0")
+)
+
+
+
+
+
+VS Avg Ulcer Size = 
+-- Calculate current average ulcer size
+VAR _CurrentAvg =
+    AVERAGE('Ulcer Dataset'[ulcer_size_mm])
+
+-- Calculate overall reference average ulcer size
+VAR _OverallAvg =
+    CALCULATE(
+        AVERAGE('Ulcer Dataset'[ulcer_size_mm]),
+        ALL('Ulcer Dataset')
+    )
+
+-- Difference between current and overall
+VAR _Diff = _CurrentAvg - _OverallAvg
+
+-- Return arrow + formatted value
+RETURN
+SWITCH(
+    TRUE(),
+    _Diff > 0, UNICHAR(9650) & " " & FORMAT(_CurrentAvg, "0.0"),
+    _Diff < 0, UNICHAR(9660) & " " & FORMAT(_CurrentAvg, "0.0"),
+    FORMAT(_CurrentAvg, "0.0")
+)
+
+
+
+VS Avg Pain Severity = 
+-- Calculate current average pain severity
+VAR _CurrentAvg =
+    AVERAGE('Ulcer Dataset'[pain_severity])
+
+-- Calculate overall reference average pain severity
+VAR _OverallAvg =
+    CALCULATE(
+        AVERAGE('Ulcer Dataset'[pain_severity]),
+        ALL('Ulcer Dataset')
+    )
+
+-- Difference between current and overall
+VAR _Diff = _CurrentAvg - _OverallAvg
+
+-- Return arrow + formatted value
+RETURN
+SWITCH(
+    TRUE(),
+    _Diff > 0, UNICHAR(9650) & " " & FORMAT(_CurrentAvg, "0.0"),
+    _Diff < 0, UNICHAR(9660) & " " & FORMAT(_CurrentAvg, "0.0"),
+    FORMAT(_CurrentAvg, "0.0")
+)
+
+
+
+Age Group = 
+SWITCH(
+    TRUE(),
+    'ulcer dataset'[age] >= 26 && 'ulcer dataset'[age] <= 30, "26+",
+    'ulcer dataset'[age] >= 31 && 'ulcer dataset'[age] <= 35, "31+",
+    'ulcer dataset'[age] >= 36 && 'ulcer dataset'[age] <= 40, "36+",
+    'ulcer dataset'[age] >= 41 && 'ulcer dataset'[age] <= 45, "41+",
+    'ulcer dataset'[age] >= 46 && 'ulcer dataset'[age] <= 50, "46+",
+    'ulcer dataset'[age] >= 51 && 'ulcer dataset'[age] <= 55, "51+",
+    'ulcer dataset'[age] >= 56 && 'ulcer dataset'[age] <= 60, "56+",
+    'ulcer dataset'[age] >= 61 && 'ulcer dataset'[age] <= 65, "61+",
+    'ulcer dataset'[age] >= 66 && 'ulcer dataset'[age] <= 70, "66+",
+    'ulcer dataset'[age] >= 71 && 'ulcer dataset'[age] <= 75, "71+",
+    'ulcer dataset'[age] >= 76, "76+",
+    "Unknown"
+)
+
