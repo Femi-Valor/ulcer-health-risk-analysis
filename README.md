@@ -2,7 +2,8 @@
 
 Power BI dashboard analyzing 500 patient records — connecting ulcer history, H. pylori status, medication use, and lifestyle factors with ulcer severity, bleeding symptoms, and treatment outcomes.
 
-<img width="741" height="418" alt="Ulcer Health Dashboard" src="https://github.com/user-attachments/assets/bc44fef7-62d5-4be2-a63a-b4288d3132d5" />
+<img width="1446" height="817" alt="project dashboard" src="https://github.com/user-attachments/assets/392d5ad8-9f39-4f64-9327-9a95c57e56cd" />
+
 
 **Dashboard includes:** summary KPI cards (with year-over-year comparison indicators), an annual patient trend line, average BMI and hemoglobin trend lines, an ulcer history donut chart, an age distribution line chart, an ulcer depth bar chart, a medication distribution column chart, a pain pattern bar chart, and an interactive filter by ulcer stage.
 
